@@ -1,0 +1,102 @@
+.about-img{
+    height: 400px;
+    width: 1375px;
+    padding: auto;
+
+}
+.content{
+    position: absolute;
+
+}
+.head{
+    position: relative;
+    font-family: "Roboto Slab", serif;
+}
+.traveler-img{
+    height: 400px;
+    padding-left: 50%;
+
+
+}
+.btns{
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+
+.buot{
+ display: flex;
+  border: none;
+  background-color: rgb(222, 245, 223);
+  height: 80px;
+  width: 300px;
+}
+.buot:hover{
+  background-color: rgb(157, 236, 157);
+}
+.icon{
+  display: inline;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.p{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+.btn1{
+  padding: 10px 20px;
+  margin: 10px 150px;
+  background-color: rgb(157, 236, 157);
+  border: 1px solid green;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.find{
+  text-decoration: none;
+  font-size: 36px;
+  font-family: "Roboto Slab", serif;
+  color: green;
+  margin-left: 10px;
+}
+.limg{
+display: flex;
+ width: 300px;
+ height: 80px;
+}
+.rank{
+    
+}
+.feeds-img{
+  height: 60px;
+  width: 60px;
+
+}
+
+
+@media screen and (max-width:756px){
+.about-img {
+height: 500px;
+width: 100%;
+
+}
+
+.head{
+position: relative;
+display: flex;
+flex-wrap: wrap;
+font-size: 10px;
+}
+.traveler-img{
+height: 50%;
+width: 50%;
+}
+.btns{
+position: absolute;
+}
+
+}
