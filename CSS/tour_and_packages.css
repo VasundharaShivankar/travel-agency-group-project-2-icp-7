@@ -3,6 +3,16 @@
     margin: 0;
 }
 .card{
-    float: left;
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    height: 500px;
+    
     
 }
