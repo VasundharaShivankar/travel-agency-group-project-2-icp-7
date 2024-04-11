@@ -6,7 +6,6 @@
 }
 .content{
     position: absolute;
-
 }
 .head{
     position: relative;
@@ -15,8 +14,6 @@
 .traveler-img{
     height: 400px;
     padding-left: 50%;
-
-
 }
 .btns{
   position: sticky;
