@@ -31,6 +31,7 @@
   background-color: rgb(222, 245, 223);
   height: 80px;
   width: 300px;
+  box-shadow: 0 0 5px 1px #000;
 }
 .buot:hover{
   background-color: rgb(157, 236, 157);
@@ -50,7 +51,7 @@
 }
 .btn1{
   padding: 10px 20px;
-  margin: 10px 150px;
+  margin: 10px 350px;
   background-color: rgb(157, 236, 157);
   border: 1px solid green;
   border-radius: 10px;
@@ -63,15 +64,19 @@
   color: green;
   margin-left: 10px;
 }
-.limg{
-display: flex;
- width: 300px;
- height: 80px;
+
+.flex{
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
 }
 
-.feeds-img{
-  height: 60px;
-  width: 60px;
+.text{
+
+text-align: center;
+justify-content: center;
+
 
 }
 
@@ -94,7 +99,12 @@ height: 50%;
 width: 50%;
 }
 .btns{
-position: absolute;
+position: sticky;
 }
-
+.btn1{
+  display: block;
+}
+.find{
+  margin-left: 40px;
+}
 }
