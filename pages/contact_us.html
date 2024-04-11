@@ -55,25 +55,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>
-    
-    function initMap() {
-      var mapOptions = {
-        center: {lat: 40.7128, lng: -74.0060}, 
-        zoom: 12
-      };
-      var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-    }
-
-    
-    $(document).ready(function(){
-      $('#contactForm').submit(function(e){
-        e.preventDefault();
-       
-        alert('Form submitted!');
-      });
-    });
-  </script>
+ 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
 </html>
