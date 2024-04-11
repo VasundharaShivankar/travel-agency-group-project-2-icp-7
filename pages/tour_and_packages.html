@@ -15,9 +15,16 @@
 </head>
 <body>
   
-  <div class="heading" >
+  <div class="heading" id="bg-img" >
     
     <p class="sub-title jost-font">Travel Around The World</p>
+    <div class="img-container">
+      <img src="./../img/packages_img/background/bg1.jpg" class="rounded float-end" onclick="changeBg(1)">
+      <img src="./../img/packages_img/background/bg2.jpg" class="rounded float-end" onclick="changeBg(2)">
+      <img src="./../img/packages_img/background/bg3.jpg" class="rounded float-end" onclick="changeBg(3)">
+      <img src="./../img/packages_img/background/bg4.jpg" class="rounded float-end" onclick="changeBg(4)">
+      
+    </div>
   </div>
     <h2 class="text-center">Top Destinations</h2>
     <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -108,6 +115,28 @@
           </div>
         </div>
       </div>
+
+
+
+      <script>
+        function changeBg(num){
+
+         const bg=document.getElementById("bg-img");
+         if (num==1){
+          bg.src='./../img/packages_img/background/bg1.jpg';
+         }
+         else if(num==2){
+          bg.src='./../img/packages_img/background/bg2.jpg';
+         }
+         else if(num==3) {
+          bg.src='./../img/packages_img/background/bg3.jpg';
+
+        }
+        else if (num==4){
+          bg.src='./../img/packages_img/background/bg4.jpg';
+        }
+      }
+      </script>
 
 </body>
 </html>

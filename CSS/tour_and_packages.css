@@ -9,9 +9,18 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
-    height: 500px;
-    
-    
+    height: 500px; 
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    flex-wrap: wrap;
+    margin-bottom: -25px;
+}
+.img-container img{
+height: 150px;
+cursor: pointer;
 }
 .heading{
     height: 500px;
