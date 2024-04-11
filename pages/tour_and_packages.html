@@ -17,16 +17,16 @@
   
   <div class="heading" id="bg-img" >
     
-    <p class="sub-title jost-font">Travel Around The World</p>
+    <p class="sub-title jost-font text-warning">Travel Around The World</p>
     <div class="img-container">
-      <img src="./../img/packages_img/background/bg1.jpg" class="rounded float-end" onclick="changeBg(1)">
-      <img src="./../img/packages_img/background/bg2.jpg" class="rounded float-end" onclick="changeBg(2)">
-      <img src="./../img/packages_img/background/bg3.jpg" class="rounded float-end" onclick="changeBg(3)">
-      <img src="./../img/packages_img/background/bg4.jpg" class="rounded float-end" onclick="changeBg(4)">
+      <img src="./../img/packages_img/background/bg1.jpg" class="rounded float-end" onclick="changeBg(1)" id="bg1">
+      <img src="./../img/packages_img/background/bg2.jpg" class="rounded float-end" onclick="changeBg(2)" id="bg2">
+      <img src="./../img/packages_img/background/bg3.jpg" class="rounded float-end" onclick="changeBg(3)" id="bg3">
+      <img src="./../img/packages_img/background/bg4.jpg" class="rounded float-end" onclick="changeBg(4)" id="bg4">
       
     </div>
   </div>
-    <h2 class="text-center">Top Destinations</h2>
+    <h2 class="text-center text-warning my-4">Top Destinations</h2>
     <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card h-100">
@@ -36,7 +36,7 @@
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
             </div>
-            <button type="button" class="btn btn-warning">Book Now</button>
+            <button type="button" class="btn btn-warning text-light fs-5 fw-semibold">Book Now</button>
           </div>
         </div>
         <div class="col">
@@ -46,7 +46,7 @@
               <h5 class="card-title">France</h5>
               <p class="card-text">This is a short card.</p>
             </div>
-            <button type="button" class="btn btn-warning">Book Now</button>
+            <button type="button" class="btn btn-warning text-light fs-5 fw-semibold">Book Now</button>
           </div>
         </div>
         <div class="col">
@@ -56,7 +56,7 @@
               <h5 class="card-title">India</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             </div>
-              <button type="button" class="btn btn-warning">Book Now</button>
+              <button type="button" class="btn btn-warning text-light fs-5 fw-semibold">Book Now</button>
 
           </div>
         </div>
@@ -68,7 +68,7 @@
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               
             </div>
-            <button type="button" class="btn btn-warning">Book Now</button>
+            <button type="button" class="btn btn-warning text-light fs-5 fw-semibold">Book Now</button>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
              
             </div>
-            <button type="button" class="btn btn-warning">Book Now</button>
+            <button type="button" class="btn btn-warning text-light fs-5 fw-semibold">Book Now</button>
           </div>
         </div>
         <div class="col">
@@ -90,8 +90,9 @@
             <div class="card-body">
               <h5 class="card-title">Spain</h5>
               <p class="card-text">This is a short card.</p>
-              <button type="button" class="btn btn-warning">Book Now</button>
             </div>
+            <button type="button" class="btn btn-warning text-light fs-5 fw-semibold">Book Now</button>
+
           </div>
         </div>
         <div class="col">
@@ -100,8 +101,8 @@
             <div class="card-body">
               <h5 class="card-title">Thailand</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              <button type="button" class="btn btn-warning">Book Now</button>
             </div>
+            <button type="button" class="btn btn-warning text-light fs-5 fw-semibold">Book Now</button>
           </div>
         </div>
         <div class="col">
@@ -110,8 +111,8 @@
             <div class="card-body">
               <h5 class="card-title">United Kingdom</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-warning">Book Now</button>
             </div>
+            <button type="button" class="btn btn-warning text-light fs-5 fw-semibold">Book Now</button>
           </div>
         </div>
       </div>
@@ -125,19 +126,60 @@
          bg.className='heading';
          if (num==1){
          bg.className='heading1';
+
+         const b=document.getElementById("bg1");
+         b.classList.add("border");
+         const b1=document.getElementById("bg2");
+         b1.classList.remove("border");
+         const b2=document.getElementById("bg3");
+         b2.classList.remove("border");
+         const b3=document.getElementById("bg4");
+         b3.classList.remove("border");
+
          }
          else if(num==2){
           bg.src='./../img/packages_img/background/bg2.jpg';
           bg.className='heading2';
+
+          const back_img=document.getElementById("bg2");
+          back_img.classList.add("border");
+
+         const b=document.getElementById("bg1");
+         b.classList.remove("border");
+         
+         const b2=document.getElementById("bg3");
+         b2.classList.remove("border");
+         const b3=document.getElementById("bg4");
+         b3.classList.remove("border");
          }
          else if(num==3) {
           bg.src='./../img/packages_img/background/bg3.jpg';
           bg.className='heading3';
 
+          const back_img=document.getElementById("bg3");
+          back_img.classList.add("border");
+         const b=document.getElementById("bg2");
+         b.classList.remove("border");
+
+         const b1=document.getElementById("bg1");
+         b1.classList.remove("border");
+         
+         const b3=document.getElementById("bg4");
+         b3.classList.remove("border");
         }
         else if (num==4){
           bg.src='./../img/packages_img/background/bg4.jpg';
           bg.className='heading4';
+
+          const back_img=document.getElementById("bg4");
+          back_img.classList.add("border");
+         const b=document.getElementById("bg3");
+         b.classList.remove("border");
+         const b1=document.getElementById("bg2");
+         b1.classList.remove("border");
+         const b2=document.getElementById("bg1");
+         b2.classList.remove("border");
+        
         }
       }
       </script>
