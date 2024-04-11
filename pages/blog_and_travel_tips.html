@@ -42,6 +42,46 @@
             font-family: ;
 
         }
+        .container-footer{
+          align-items: center;
+        }
+
+        .newsletter {
+          position: relative;
+          width:1000px;
+          margin:0 auto;
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius:20px;
+    }
+    .newsletter h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .newsletter p {
+ 
+      color: #666;
+      margin-bottom: 10px;
+      
+    }
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .newsletter input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .newsletter input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
         .footer {
       background-color: #e5f6f9;
       padding: 40px;
@@ -129,6 +169,15 @@
 </div>
 
 <!-- Footer -->
+<div class="container-footer">
+<div class="newsletter">
+  <h3>Join the Newsletter</h3>
+  <p>To receive our best monthly deals</p>
+  <form action="#" method="post">
+    <input type="email" name="email" placeholder="Your email address" required>
+    <input type="submit" value="Subscribe">
+  </form>
+</div>
 <footer class="footer" >
   <div style="max-width: 1200px; margin: 0 auto;">
     <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between">
@@ -197,7 +246,7 @@
     <p style="color: #666; text-align: center;">&copy; 2024 GlobeTrek. All rights reserved.</p>
   </div>
 </footer>
-
+</div>
 <!-- Footer End -->
 
 
