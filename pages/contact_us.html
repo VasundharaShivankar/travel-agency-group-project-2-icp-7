@@ -10,6 +10,13 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Additional CSS for responsiveness */
+    iframe {
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -21,7 +28,9 @@
         <p><strong>Email:</strong> example@example.com</p>
         <p><strong>Address:</strong> 1234 Main St, City, Country</p>
         <h3>Find Us</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59990.72639537204!2d73.64474934863279!3d19.990862999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdded84e40c851b%3A0xee8b57ccb191f8ed!2sShree%20Ganesh%20Travel!5e0!3m2!1sen!2sin!4v1712671150971!5m2!1sen!2sin" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59990.72639537204!2d73.64474934863279!3d19.990862999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdded84e40c851b%3A0xee8b57ccb191f8ed!2sShree%20Ganesh%20Travel!5e0!3m2!1sen!2sin!4v1712671150971!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
       <div class="col-md-6">
         <h3>Contact Form</h3>
@@ -55,25 +64,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>
-    
-    function initMap() {
-      var mapOptions = {
-        center: {lat: 40.7128, lng: -74.0060}, 
-        zoom: 12
-      };
-      var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-    }
-
-    
-    $(document).ready(function(){
-      $('#contactForm').submit(function(e){
-        e.preventDefault();
-       
-        alert('Form submitted!');
-      });
-    });
-  </script>
+ 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
 </html>
