@@ -2,10 +2,7 @@
     padding: 0;
     margin: 0;
 }
-.card{
-    
 
-}
 .container{
     display: flex;
     flex-direction: row;
@@ -17,5 +14,29 @@
     
 }
 .heading{
-    height: 200px;
+    height: 500px;
+    width: auto;
+    background-image: url("./../img/packages_img/background/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.jost-font {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-size: 70px;
+  width: 500px;
+  text-wrap: wrap;
+  font-style: normal;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 60px;
+  margin-left: 200px;
+}
+.sub-title{
+
 }
