@@ -4,9 +4,9 @@
     padding: auto;
 
 }
+
 .content{
     position: absolute;
-
 }
 .head{
     position: relative;
@@ -15,8 +15,6 @@
 .traveler-img{
     height: 400px;
     padding-left: 50%;
-
-
 }
 .btns{
   position: sticky;
@@ -45,6 +43,7 @@
   font-size: 20px;
 }
 .p{
+  font-family: "Roboto Slab", serif;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -58,6 +57,7 @@
   font-size: 20px;
 }
 .find{
+
   text-decoration: none;
   font-size: 36px;
   font-family: "Roboto Slab", serif;
@@ -73,7 +73,7 @@
 }
 
 .text{
-
+ font-family: "Roboto Slab", serif;
 text-align: center;
 justify-content: center;
 
