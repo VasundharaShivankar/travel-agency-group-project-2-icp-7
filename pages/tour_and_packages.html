@@ -122,18 +122,22 @@
         function changeBg(num){
 
          const bg=document.getElementById("bg-img");
+         bg.className='heading';
          if (num==1){
-          bg.src='./../img/packages_img/background/bg1.jpg';
+         bg.className='heading1';
          }
          else if(num==2){
           bg.src='./../img/packages_img/background/bg2.jpg';
+          bg.className='heading2';
          }
          else if(num==3) {
           bg.src='./../img/packages_img/background/bg3.jpg';
+          bg.className='heading3';
 
         }
         else if (num==4){
           bg.src='./../img/packages_img/background/bg4.jpg';
+          bg.className='heading4';
         }
       }
       </script>

@@ -32,6 +32,47 @@ cursor: pointer;
     background-size: cover;
     
 }
+.heading1{
+    height: 500px;
+    width: auto;
+    background-image: url("./../img/packages_img/background/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.heading2{
+    height: 500px;
+    width: auto;
+    background-image: url("./../img/packages_img/background/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.heading3{
+    height: 500px;
+    width: auto;
+    background-image: url("./../img/packages_img/background/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.heading4{
+    height: 500px;
+    width: auto;
+    background-image: url("./../img/packages_img/background/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
 
 .jost-font {
   font-family: "Jost", sans-serif;
