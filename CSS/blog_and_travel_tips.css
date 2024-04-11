@@ -38,9 +38,10 @@
 
         .newsletter {
           position: relative;
-          width:1000px;
+          align-items: center;
+          width:500px;
           margin:0 auto;
-      background-color: #f8f9fa;
+      background-color: #d0e5e9;
       padding: 20px;
       border-radius:20px;
     }
@@ -63,14 +64,14 @@
     }
     .newsletter input[type="submit"] {
       padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
+      background-color: #49e4ff;
+      color: black;
       border: none;
       border-radius: 5px;
       cursor: pointer;
     }
     .newsletter input[type="submit"]:hover {
-      background-color: #0056b3;
+      background-color: #90eeff;
     }
         .footer {
       background-color: #e5f6f9;
