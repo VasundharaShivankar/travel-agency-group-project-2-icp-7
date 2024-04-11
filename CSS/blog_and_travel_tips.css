@@ -1,0 +1,94 @@
+.blog_image_container {
+    height: 600px !important;
+    width: 100% !important;
+    margin-top:100px;
+    background: url('./../img/blog_img/main.png');
+    opacity: 95px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+        .caption-main{
+          font-size: 55px;
+          color:white;
+          width:950px;
+          font-family:;
+          margin-top:60px;
+          margin-bottom:0px; 
+          padding:0px;
+        }
+        .navbar{
+        width:1000px;
+        margin-left: -50px;
+        margin-top: 50px;
+        margin-right: -100px;
+        padding: 10px;
+        border-radius: 20px;
+        }
+        .nav-option{
+            font-size: 20px;
+            padding: 5px;
+            font-family: ;
+
+        }
+        .container-footer{
+          align-items: center;
+        }
+
+        .newsletter {
+          position: relative;
+          width:1000px;
+          margin:0 auto;
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius:20px;
+    }
+    .newsletter h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .newsletter p {
+ 
+      color: #666;
+      margin-bottom: 10px;
+      
+    }
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .newsletter input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .newsletter input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+        .footer {
+      background-color: #e5f6f9;
+      padding: 40px;
+      color: black; 
+    }
+    .footer-contact-us, .footer-contact {
+  color: #666;
+}
+
+.footer-contact-us:hover {
+  color: rgb(255, 187, 0);
+}
+.footer-quick-links{
+  color: #666;
+  margin-bottom: 5px;
+}
+.footer-quick-links:hover{
+  color: #4c29cc;
+  margin-bottom: 5px;
+}
