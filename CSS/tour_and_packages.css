@@ -41,6 +41,14 @@ cursor: pointer;
     background-attachment: fixed;
     background-size: cover;
     
+    
+}
+.border{
+    border: 1px solid orange;
+
+}
+.heading1:hover, .heading2:hover, .heading3:hover, .heading4:hover{
+    border-radius: 1px solid;
 }
 .heading2{
     height: 500px;
