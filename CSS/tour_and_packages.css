@@ -97,6 +97,8 @@ cursor: pointer;
   padding-top: 60px;
   margin-left: 200px;
 }
-.sub-title{
-
+button{
+    width: 50%;
+    margin:10px auto;
+    
 }
