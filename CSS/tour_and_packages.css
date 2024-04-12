@@ -2,6 +2,22 @@
     padding: 0;
     margin: 0;
 }
+/*carousel css*/
+
+.applycss{
+  width:100vh;
+  height: 80vh;
+  margin: 30px auto;
+
+}
+.carousel-caption{
+  font-size: 25px;
+  font-weight: 800;
+
+}
+
+/*cards styling*/
+
 
 .container{
     display: flex;
