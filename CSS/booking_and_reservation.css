@@ -30,14 +30,25 @@
     }
     input[type="text"],
     input[type="date"],
-    input[type="number"],
+    input[type="#"],
     input[type="submit"] 
     {
             width: 30%;
             padding: 25px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
-            border-radius: 10px;
+            border-radius: 15px;
+            
+    }
+    .travelers-inc-dec{
+            margin-left: 35%;
+            width: 30%;
+            padding: 25px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            justify-content: center;
+            
     }
     
          .menu{
@@ -50,3 +61,17 @@
          .menu:hover {
             background-color: #555;
              }
+        .flights{
+            background-color: #d0e5e9;
+        }
+        .btn-quantity{
+            height: 35px;
+            justify-content: center;
+
+        }
+        .already{
+            font-size: 25px;
+           
+            margin: auto 10px;
+            cursor: pointer;
+        }
