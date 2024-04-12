@@ -73,6 +73,16 @@
     .newsletter input[type="submit"]:hover {
       background-color: #90eeff;
     }
+    .email-input {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+  .error-message {
+      color: red;
+  }
         .footer {
       background-color: black;
       padding: 40px;

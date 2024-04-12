@@ -9,6 +9,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
   <link href="./../css/blog_and_travel_tips.css" rel="stylesheet">
+  <link href="./../js/blog_and_travel_tips.js" >
 </head>
 <body>
   <div>
@@ -72,12 +73,13 @@
   <div class="newsletter">
     <h3>Join the Newsletter</h3>
     <p>To receive our best monthly deals</p>
-    <form action="#" method="post" onsubmit="return getUserEmail()">
-      <input type="email" id="emailInput" name="email" placeholder="Your email address" required>
-      <input type="submit">
+    <form id="emailForm" onsubmit="return isValidEmail()">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="emailInput" class="email-input" placeholder="example@example.com">
+        <p class="error-message" id="errorMessage"></p>
+        <input type="submit" value="Submit">
     </form>
-    <p id="userEmail"></p>
-  </div>
+</div>
 <footer class="footer" >
   <div class="footer-body">
     <div class="footer-container">

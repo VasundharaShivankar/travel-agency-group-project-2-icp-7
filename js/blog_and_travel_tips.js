@@ -1,15 +1,18 @@
-function isValidEmail(email) {
-    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    return emailPattern.test(email);
-}
+function isValidEmail() {
+    var emailInput = document.getElementById("emailInput").value.trim();
+    var errorMessage = document.getElementById("errorMessage");
 
-function getUserEmail() {
-    var email = document.getElementById("emailInput").value;
-    if (isValidEmail(email)) {
-        document.getElementById("userEmail").innerText = "User's email: " + email;
+    // Regular expression for email validation
+    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    
+    if (emailPattern.test(emailInput)) {
+        // Valid email format
+        errorMessage.textContent = "";
         return true;
     } else {
-        alert("Invalid email address! Please enter a valid email address.");
+        // Invalid email format
+        errorMessage.textContent = "Please enter a valid email address in the format 'example@example.com'";
+        alert("Invalid email format. Please correct it.");
         return false;
     }
 }
