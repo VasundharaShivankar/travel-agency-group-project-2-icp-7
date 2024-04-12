@@ -2,6 +2,22 @@
     padding: 0;
     margin: 0;
 }
+/*carousel css*/
+
+.applycss{
+  width:100vh;
+  height: 80vh;
+  margin: 30px auto;
+
+}
+.carousel-caption{
+  font-size: 25px;
+  font-weight: 800;
+
+}
+
+/*cards styling*/
+
 
 .container{
     display: flex;
@@ -10,6 +26,7 @@
     align-items: center;
     padding: 10px;
     height: 500px; 
+
 }
 .img-container{
     display: flex;
@@ -17,6 +34,7 @@
     align-items:baseline;
     flex-wrap: wrap;
     margin-bottom: -25px;
+    margin: 0 10px;
 }
 .img-container img{
 height: 150px;
@@ -44,7 +62,7 @@ cursor: pointer;
     
 }
 .border{
-    border: 1px solid orange;
+    border: 1px solid white;
 
 }
 .heading1:hover, .heading2:hover, .heading3:hover, .heading4:hover{
@@ -95,6 +113,146 @@ cursor: pointer;
   padding-top: 60px;
   margin-left: 200px;
 }
-.sub-title{
+button{
+    width: 50%;
+    margin:10px auto;
+    
+}
+h5 img{
+    height: 5vh;
+}
+
+
+/* css for the all the packages page starts fron here */
+
+/* thailand */
+
+.image-effect:hover{
+  box-shadow: 0 0 10px 2px grey;
+}
+
+
+.australia .image-effect{
+  height: 210px;
+  width: 80%;
+  margin: 30px auto;
+
+    
+}
+.australia .image-effect .img-card{
+  padding: 10px;
+object-fit: cover;
 
 }
+
+
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .awesome-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  @media screen and (max-width:700px) {
+    .australia .image-effect{
+      width: 80%;
+     
+      flex-wrap:wrap ;
+      display: flex;
+      
+      font-size: 20px;
+     
+    }
+    
+    .second{
+      visibility: hidden;
+      display: none;
+    }
+    .third{
+      visibility: hidden;
+      display: none;
+    }
+    .containerof {
+      position: relative;
+      height: 200px;
+      width: 100vh;
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .overlay {
+      position: absolute;
+      border-radius: 10px;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color:rgb(126, 122, 116);
+      overflow: hidden;
+      width: 100%;
+      opacity: 0.8;
+      height:0;
+      transition: .5s ease;
+      -webkit-transition: .5s ease;
+      -moz-transition: .5s ease;
+      -ms-transition: .5s ease;
+      -o-transition: .5s ease;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+  }
+    
+    .containerof:hover .overlay {
+      bottom: 0;
+      height: 100%;
+     
+    }
+    
+    .text {
+     
+      font-size: 18px;
+      width: 200px;
+      font-weight: 700;
+      position: absolute;
+      top: 60%;
+      left: 70%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: justify;
+    }
+
+  }
+  @media screen and (min-width:701px){
+    .card-img-overlay{
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+  .icons i{
+    background-color:rgb(35, 35, 77);
+    padding: 15px;
+    margin: 5px 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.icons i:hover{
+  background-color: cadetblue;
+}
+  
