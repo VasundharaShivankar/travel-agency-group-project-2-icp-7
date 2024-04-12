@@ -56,16 +56,8 @@
         </div>
       </div>
     </nav>
-        <div class="blog_image_container">
-            <div class="container">
-                <div class="row justify-content-center align-items-start">
-                    <div class="col-md-6 left text-start mt-5">
-                      <h1 class="caption-main"> Discover your perfect escape with us </h1>        
-                    </div>
-                </div>
-            </div>
-        </div>
-    <div class="container">
+    
+    <div class="container post-container">
           <section id="blog-posts">
             <h2>Latest Blog Posts</h2>
               <div class="post">
@@ -80,28 +72,137 @@
                       <i class="fas fa-heart heart" style="color: #d60000; "></i>
                     </button>
                     <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">47 Views</p>
-                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like comment">(0) Comment</p>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">(0) Comment</p>
                   </div>
               
                 </div>
-                  <h3 class=" h2  roboto-condensed-uniquifier">A Seaside Reset in Laguna Beach</h3>
-                  <p class=" h5  roboto-condensed-uniquifier">From the iconic to the unexpected, the city of San Francisco never ceases to surprise. Kick-start your effortlessly delivered Northern California holiday in the cosmopolitan hills of The City. Join your Travel Director and fellow travellers for a Welcome Reception at your hotel.</p>
+                  <h3 class=" h2  roboto-condensed-uniquifier ms-1">A Seaside Reset in Laguna Beach</h3>
+                  <p class=" h5  roboto-condensed-uniquifier ms-1">From the iconic to the unexpected, the city of San Francisco never ceases to surprise. Kick-start your effortlessly delivered Northern California holiday in the cosmopolitan hills of The City. Join your Travel Director and fellow travellers for a Welcome Reception at your hotel.</p>
                   <div>
-                      <p class=" h5  roboto-condensed-uniquifier">By Jasmin Sinha</p>
-                      <p class=" h6  roboto-condensed-uniquifier text-secondary">April 12, 2024 10:20 Am</p>
+                      <p class=" h5  roboto-condensed-uniquifier ms-1">By Jasmin Sinha</p>
+                      <p class=" h6  roboto-condensed-uniquifier text-secondary ms-1">April 12, 2024 10:20 Am</p>
                   </div>
-                  <div class="post-comment">
-                  <label for="comment" class="d-block h4  roboto-condensed-uniquifier" style="margin:5px 5px;">Leave a Comment:</label>
-                  <input type="text" id="emailInput" style="margin:5px 5px;" class="comment-input d-block fs-6 h5  roboto-condensed-uniquifier" placeholder="Write Something..." >
-                  <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier" style="margin:5px 5px;">Post Comment</button>
+                  <div class="post-comment p-2 ">
+                  <label for="comment" class="d-block h4  roboto-condensed-uniquifier" style="margin:10px 10px;">Leave a Comment:</label>
+                  <input type="text" id="emailInput" style="margin:5px 5px;" class="comment-input d-block fs-6 h5  roboto-condensed-uniquifier comment" placeholder="Write Something..." >
+                  <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center" style="margin:10px 5px;">Post Comment</button>
                   </div>
               </div>
               <div class="post">
-                  <h3>Post Title 2</h3>
-                  <p>Ut fermentum turpis euismod sapien bibendum, et viverra purus vestibulum. Quisque vel dolor dapibus, convallis sapien ut, fermentum est.</p>
-                  <div class="full-content" style="display: none;">
-                      <p>Additional content for Post Title 2.</p>
+                <img src="./../img/blog_img/hotel1.jpg" class="post-img">
+                <div class="post-review">
+                  <div class="like-container">  
+                    <button id="dislike-btn" class="dislike-btn btn-like" onclick="decrementLikes()">
+                      <i class="fa-regular fa-heart heart" style="color: #d60000;"></i>
+                    </button>
+                    <span id="like-count" class="like-count h5 roboto-condensed-uniquifier" style="margin-top: 8px;">0</span>
+                    <button id="like-btn" class="like-btn btn-like" onclick="incrementLikes()">
+                      <i class="fas fa-heart heart" style="color: #d60000; "></i>
+                    </button>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">47 Views</p>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">(0) Comment</p>
                   </div>
+              
+                </div>
+                  <h3 class=" h2  roboto-condensed-uniquifier ms-1">A Seaside Reset in Laguna Beach</h3>
+                  <p class=" h5  roboto-condensed-uniquifier ms-1">From the iconic to the unexpected, the city of San Francisco never ceases to surprise. Kick-start your effortlessly delivered Northern California holiday in the cosmopolitan hills of The City. Join your Travel Director and fellow travellers for a Welcome Reception at your hotel.</p>
+                  <div>
+                      <p class=" h5  roboto-condensed-uniquifier ms-1">By Jasmin Sinha</p>
+                      <p class=" h6  roboto-condensed-uniquifier text-secondary ms-1">April 12, 2024 10:20 Am</p>
+                  </div>
+                  <div class="post-comment p-2 ">
+                  <label for="comment" class="d-block h4  roboto-condensed-uniquifier" style="margin:10px 10px;">Leave a Comment:</label>
+                  <input type="text" id="emailInput" style="margin:5px 5px;" class="comment-input d-block fs-6 h5  roboto-condensed-uniquifier comment" placeholder="Write Something..." >
+                  <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center" style="margin:10px 5px;">Post Comment</button>
+                  </div>
+              </div>
+              <div class="post">
+                <img src="./../img/blog_img/hotel2.avif" class="post-img">
+                <div class="post-review">
+                  <div class="like-container">  
+                    <button id="dislike-btn" class="dislike-btn btn-like" onclick="decrementLikes()">
+                      <i class="fa-regular fa-heart heart" style="color: #d60000;"></i>
+                    </button>
+                    <span id="like-count" class="like-count h5 roboto-condensed-uniquifier" style="margin-top: 8px;">0</span>
+                    <button id="like-btn" class="like-btn btn-like" onclick="incrementLikes()">
+                      <i class="fas fa-heart heart" style="color: #d60000; "></i>
+                    </button>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">47 Views</p>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">(0) Comment</p>
+                  </div>
+              
+                </div>
+                  <h3 class=" h2  roboto-condensed-uniquifier ms-1">Journey to the Sands: Exploring the Mystique of the Sahara</h3>
+                  <p class=" h5  roboto-condensed-uniquifier ms-1">Embark on an enchanting journey into the heart of the Sahara desert, where every moment is a testament to the 
+                    timeless allure of this vast expanse of sand. Riding camels through this sea of sand, we are enveloped in a sense of wonder and awe as we traverse the mesmerizing terrain. Our journey concludes at the tranquil oasis of Merzouga, where lush palm groves and cool springs offer a welcome respite from the desert heat. Here, amidst the serenity of nature, we reflect on the profound beauty and majesty of the Sahara, a landscape that has captivated the hearts and imaginations of travelers for centuries.</p>
+                  <div>
+                      <p class=" h5  roboto-condensed-uniquifier ms-1">By Jasmin Sinha</p>
+                      <p class=" h6  roboto-condensed-uniquifier text-secondary ms-1">April 12, 2024 10:20 Am</p>
+                  </div>
+                  <div class="post-comment p-2 ">
+                  <label for="comment" class="d-block h4  roboto-condensed-uniquifier" style="margin:10px 10px;">Leave a Comment:</label>
+                  <input type="text" id="emailInput" style="margin:5px 5px;" class="comment-input d-block fs-6 h5  roboto-condensed-uniquifier comment" placeholder="Write Something..." >
+                  <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center" style="margin:10px 5px;">Post Comment</button>
+                  </div>
+              </div>
+              <div class="post">
+                <img src="./../img/blog_img/hotel6.jpg" class="post-img">
+                <div class="post-review">
+                  <div class="like-container">  
+                    <button id="dislike-btn" class="dislike-btn btn-like" onclick="decrementLikes()">
+                      <i class="fa-regular fa-heart heart" style="color: #d60000;"></i>
+                    </button>
+                    <span id="like-count" class="like-count h5 roboto-condensed-uniquifier" style="margin-top: 8px;">0</span>
+                    <button id="like-btn" class="like-btn btn-like" onclick="incrementLikes()">
+                      <i class="fas fa-heart heart" style="color: #d60000; "></i>
+                    </button>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">287 Views</p>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">(19) Comments</p>
+                  </div>
+              
+                </div>
+                  <h3 class=" h2  roboto-condensed-uniquifier ms-1"> Serendipitous Sojourns: Globetrek's Budget-Friendly Escapes</h3>
+                  <p class=" h5  roboto-condensed-uniquifier ms-1">Welcome to Serendipitous Sojourns, where we unveil the magic of affordable travel with Globetrek's enticing offers. Join us on a whirlwind tour of unforgettable adventures, all made possible without breaking the bank.</p>
+                  <div>
+                      <p class=" h5  roboto-condensed-uniquifier ms-1">By Rakhi Suryawanshi</p>
+                      <p class=" h6  roboto-condensed-uniquifier text-secondary ms-1">April 08, 2024 02:30 Pm</p>
+                  </div>
+                  <div class="post-comment p-2 ">
+                  <label for="comment" class="d-block h4  roboto-condensed-uniquifier" style="margin:10px 10px;">Leave a Comment:</label>
+                  <input type="text" id="emailInput" style="margin:5px 5px;" class="comment-input d-block fs-6 h5  roboto-condensed-uniquifier comment" placeholder="Write Something..." >
+                  <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center" style="margin:10px 5px;">Post Comment</button>
+                  </div>
+              </div>
+              <div class="post">
+                <img src="./../img/blog_img/image3.avif" class="post-img">
+                <div class="post-review">
+                  <div class="like-container">  
+                    <button id="dislike-btn" class="dislike-btn btn-like" onclick="decrementLikes()">
+                      <i class="fa-regular fa-heart heart" style="color: #d60000;"></i>
+                    </button>
+                    <span id="like-count" class="like-count h5 roboto-condensed-uniquifier" style="margin-top: 8px;">0</span>
+                    <button id="like-btn" class="like-btn btn-like" onclick="incrementLikes()">
+                      <i class="fas fa-heart heart" style="color: #d60000; "></i>
+                    </button>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">1002 Views</p>
+                    <p class="h6 roboto-condensed-uniquifier text-secondary btn-like">(34) Comments</p>
+                  </div>
+              
+                </div>
+                  <h3 class=" h2  roboto-condensed-uniquifier ms-1">Wanderlust Odyssey: Globetrek's Epic Offerings Unveiled</h3>
+                  <p class=" h5  roboto-condensed-uniquifier ms-1">The enchanting tales of travelers who have embarked on unforgettable adventures, all made possible by the irresistible offers of Globetrek Travel Agency. Join us as we delve into the experiences of individuals who have found themselves immersed in the wonders of the world, from vibrant cities to serene retreats, all while enjoying the best deals curated by Globetrek.</p>
+                  <div>
+                      <p class=" h5  roboto-condensed-uniquifier ms-1">By Amisha Gupta</p>
+                      <p class=" h6  roboto-condensed-uniquifier text-secondary ms-1">April 06, 2024 01:15 Am</p>
+                  </div>
+                  <div class="post-comment p-2 ">
+                  <label for="comment" class="d-block h4  roboto-condensed-uniquifier" style="margin:10px 10px;">Leave a Comment:</label>
+                  <input type="text" id="emailInput" style="margin:5px 5px;" class="comment-input d-block fs-6 h5  roboto-condensed-uniquifier comment" placeholder="Write Something..." >
+                  <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center" style="margin:10px 5px;">Post Comment</button>
+                  </div>
+              </div>
+
+            
               </div>
  
           </section>
