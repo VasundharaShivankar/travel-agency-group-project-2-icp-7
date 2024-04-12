@@ -8,11 +8,9 @@ body{
 .card{
     height: 100%;
     width: 450px;
-    border-radius: 20px;
     background-color: transparent;
-    color: black;
-    margin: 90px auto;git 
-    backdrop-filter: blur(10px);
+    margin: 50px auto;
+    box-shadow: 6px 10px 10px black;
 }
 .head{
     text-align: center;
@@ -56,6 +54,5 @@ body{
     margin-left: 90px;
 }
 .log-btn{
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
