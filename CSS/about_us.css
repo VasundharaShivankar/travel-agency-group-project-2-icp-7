@@ -121,6 +121,11 @@ height: auto;
     padding: auto;
 
 }
+.teammber-img{
+  height: 300px;
+  border-radius: 10px;
+  width: 300px;
+}
 
 .content{
     position: absolute;
@@ -172,7 +177,7 @@ height: auto;
 
 .col-review{
   font-family: "Roboto Slab", serif;
-  border-radius: 20px;
+  border-radius: 5px 50px 5px 50px;
   display: block;
   margin: 30px auto;
   width: 300px;
