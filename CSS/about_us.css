@@ -52,9 +52,14 @@
   border-radius: 10px;
   font-size: 20px;
 }
-.rating{
-  width: 100px;
-  border: 1px solid #000;
+
+.col-review{
+  border-radius: 20px;
+  display: block;
+  margin: 30px auto;
+  width: 300px;
+  border: 1px solid #afafaf;;
+  box-shadow: 0 0 2px 1px #afafaf;
   height: 300px;
 }
 .find{
