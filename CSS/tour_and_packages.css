@@ -137,9 +137,10 @@ h5 img{
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color:orange;
+    background-color:rgb(0, 132, 255);
     overflow: hidden;
     width: 100%;
+    opacity: 0.7;
     height:0;
     transition: .5s ease;
     -webkit-transition: .5s ease;
@@ -151,6 +152,7 @@ h5 img{
   .container:hover .overlay {
     bottom: 0;
     height: 100%;
+   
   }
   
   .text {
