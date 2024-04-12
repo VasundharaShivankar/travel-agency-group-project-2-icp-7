@@ -52,6 +52,17 @@
   border-radius: 10px;
   font-size: 20px;
 }
+
+.col-review{
+  font-family: "Roboto Slab", serif;
+  border-radius: 20px;
+  display: block;
+  margin: 30px auto;
+  width: 300px;
+  border: 1px solid #afafaf;;
+  box-shadow: 0 0 2px 1px #afafaf;
+  height: 300px;
+}
 .find{
 
   text-decoration: none;
@@ -59,7 +70,10 @@
   font-family: "Roboto Slab", serif;
   margin-left: 10px;
 }
-
+.rating-img{
+  height: 200px;
+  margin-top: 0px;
+}
 .flex{
   position: sticky;
   display: flex;
