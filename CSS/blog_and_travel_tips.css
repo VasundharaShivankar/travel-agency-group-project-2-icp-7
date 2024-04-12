@@ -40,13 +40,10 @@
           margin-bottom:0px; 
           padding:0px;
         }
-        .full-content {
+        .more {
           display: none;
       }
       
-      .full-content.expanded {
-          display: block;
-      }
         .container-footer{
           align-items: center;
         }

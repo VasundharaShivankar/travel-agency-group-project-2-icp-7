@@ -1,6 +1,5 @@
-function readMore(){
-    document.write(`hjdhjc`)
-}
+
+
 
 function isValidEmail() {
     var emailInput = document.getElementById("emailInput").value.trim();
