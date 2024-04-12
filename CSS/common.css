@@ -1,0 +1,208 @@
+/* font url */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font css */
+.roboto-condensed-uniquifier{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  /* footer code
+
+<div class="container-footer">
+  <div class="newsletter p-2 justify-content-center">
+    <h3 style="text-align: center;margin-top:10px" class="roboto-condensed-uniquifier">Join the Newsletter</h3>
+    <p style="text-align: center;" class="roboto-condensed-uniquifier">To receive our best monthly deals</p>
+    <form id="emailForm" onsubmit="return isValidEmail()" style="display: flex;">
+        <label for="email" ></label>
+        <input type="email" id="emailInput" class="email-input" placeholder="vasundhara@gmail.com" >
+        <p class="error-message" id="errorMessage"></p>
+        <button type="submit" value="Submit" class="btn btn-warning roboto-condensed-uniquifier" style="height:45px; margin-top:10px;margin-left:-20px;margin-right:20px;">Submit</button>
+    </form>
+</div>
+<footer class="footer" >
+  <div class="footer-body">
+    <div class="footer-container">
+      <div class="footer-container2">
+        <div style="display:flex">
+        <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 class="footer-head h4 roboto-condensed-uniquifier"> Address</h3>
+        </div><br/>
+        <p  class="h5 footer-contact roboto-condensed-uniquifier">101, Serenity Road, Seminary Hills</p>
+        <p class="h5 footer-contact roboto-condensed-uniquifier">Nagpur, Maharashtra 440006</p>
+        <p class="h5 footer-contact roboto-condensed-uniquifier">India</p>
+        <div style="display:flex;">
+          <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px"><h3   class="footer-head h4 roboto-condensed-uniquifier"> More Enquiry</h3>
+          </div>
+        <a href="tel:9970059488" class="h5 footer-contact-us roboto-condensed-uniquifier">Phone: 0124 462 8747</a><br/>
+
+        <div style="display:flex; margin-top:6px">
+          <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3  class="footer-head h4 roboto-condensed-uniquifier"> Send Mail</h3>
+          </div>
+        <a href="mail to:vasundharashivankar179@gmail.com" class="h5 footer-contact-us roboto-condensed-uniquifier">Email: customer.service@globetrek.com</a>
+      </div>
+
+      <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Quick Links</h3>
+        <div style="display: block; align-items: center;">
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">About Us</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Destinations</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Tour Packages</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Article</a></div>
+        </div>
+      </div>
+
+      <div>
+      <h3 class="footer-head h5 roboto-condensed-uniquifier">Company</h3>
+      <div style="display: block; align-items: center;">
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Careers</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Jobs</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Partnerships</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Affiliates</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Terms and conditions</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Privacy Policy</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Cookie Statement</a></div>
+      </div>
+      </div>
+    
+      <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Follow Us</h3>
+        <div style="display: flex; flex-direction: column;">
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png" alt="Facebook"  class="h5 footer-icon roboto-condensed-uniquifier">Facebook</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png" alt="Twitter"  class="h5 footer-icon roboto-condensed-uniquifier">Twitter</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png" alt="Instagram" class="h5 footer-icon roboto-condensed-uniquifier">Instagram</a></div>
+        </div>
+      <br/>
+        <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Payment Partner</h3>
+        <div style="display: flex; justify-content: space-between;">
+          <div class="footer-icon-container"><img src="./../icons/visa.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/stripe.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/paypal.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/skrill.png"  class="footer-icon"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <hr style="border-top: 1px solid #ddd; margin: 40px 0;">
+    <p style="color: #666; text-align: center;" class="roboto-condensed-uniquifier">&copy; 2024 GlobeTrek. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+
+*/
+
+
+/* footer css */
+.container-footer{
+    align-items: center;
+  }
+
+  .newsletter {
+    position: relative;
+    align-items: center;
+    width:600px;
+    margin:0 auto;
+background-color: #d0e5e9;
+padding: 20px;
+border-radius:20px;
+}
+.newsletter h3 {
+color: #333;
+margin-bottom: 10px;
+}
+.newsletter p {
+
+color: #666;
+margin-bottom: 10px;
+
+}
+.newsletter input[type="email"] {
+padding: 10px;
+width: 70%;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.newsletter input[type="submit"] {
+padding: 10px 20px;
+background-color: #49e4ff;
+color: black;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.newsletter input[type="submit"]:hover {
+background-color: #90eeff;
+}
+.email-input {
+width: 300px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin:10px auto;
+margin-bottom: 10px;
+}
+.error-message {
+color: red;
+}
+  .footer {
+background-color: black;
+padding: 40px;
+color: white; 
+}
+.footer-body{
+max-width: 1200px;
+margin: 0 auto;
+}
+.footer-head h5{
+color: white; 
+margin-bottom: 20px;
+}
+.footer-container{
+display: flex; 
+flex-wrap: wrap; 
+align-items: flex-start; 
+justify-content: space-between;
+}
+.footer-head h5{
+width: 25px; 
+height: 25px;
+color: #333; 
+margin-top:5px;
+margin-bottom: 20px; 
+}
+.footer-container2{
+display:block;
+justify-content: space-between;
+}
+.footer-contact-us, .footer-contact {
+color: #666;
+text-decoration: none;
+}
+
+.footer-contact-us:hover {
+color: rgb(255, 187, 0);
+}
+.footer-quick-links{
+color: rgb(125, 124, 124);
+margin-bottom: 5px;
+text-decoration:none;
+}
+.footer-quick-links:hover{
+color: #4c29cc;
+margin-bottom: 5px;
+}
+.footer-icon-container{
+margin-bottom: 10px;
+text-decoration: none;
+color: rgb(125, 124, 124);
+}
+.footer-icon{
+margin-right:3px;
+width: 30px;
+height: auto;
+}
+
+/*footer css end */
