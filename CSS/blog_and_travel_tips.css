@@ -4,12 +4,26 @@
   font-weight: weight;
   font-style: normal;
 }
-
-
+.navbar{
+  width:100%;
+  padding:20px;
+  }
+  .nav-option{
+      padding: 5px;
+      font-family: ;
+  }
+  .nav-item{
+    margin:0 3px;
+  }
+.main-logo{
+  margin-right:100px;
+  height:70px;
+  width: 70px;
+}
 .blog_image_container {
     height: 600px !important;
     width: 100% !important;
-    margin-top:100px;
+   
     background: url('./../img/blog_img/main.png');
     opacity: 95px;
     background-repeat: no-repeat;
@@ -26,20 +40,13 @@
           margin-bottom:0px; 
           padding:0px;
         }
-        .navbar{
-        width:1000px;
-        margin-left: -50px;
-        margin-top: 50px;
-        margin-right: -100px;
-        padding: 10px;
-        border-radius: 20px;
-        }
-        .nav-option{
-            font-size: 20px;
-            padding: 5px;
-            font-family: ;
-
-        }
+        .full-content {
+          display: none;
+      }
+      
+      .full-content.expanded {
+          display: block;
+      }
         .container-footer{
           align-items: center;
         }
