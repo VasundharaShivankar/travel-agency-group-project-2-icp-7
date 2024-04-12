@@ -4,7 +4,7 @@ body{
     font-style: oblique;
 }
 .card{
-    height: 600px;
+    height: 100%;
     width: 450px;
     border-radius: 20px;
     background-color: #c2e05e;
@@ -31,7 +31,7 @@ body{
     padding: 15px;
 }
 .form-user{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .button{
     width: 100%;
@@ -41,10 +41,18 @@ body{
     margin: 10px;
     font-size: 19px;
     color: red;
-    margin-top: 50px;
+    margin-top: 40px;
+}
+.sub-btn{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .reset-pass{
     text-decoration: none;
     color: red;
     margin-left: 90px;
+}
+.log-btn{
+    font-size: 20px;
+    
 }
