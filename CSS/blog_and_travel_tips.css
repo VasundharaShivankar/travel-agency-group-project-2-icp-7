@@ -23,7 +23,6 @@
 .blog_image_container {
     height: 600px !important;
     width: 100% !important;
-   
     background: url('./../img/blog_img/main.png');
     opacity: 95px;
     background-repeat: no-repeat;
