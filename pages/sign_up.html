@@ -8,45 +8,47 @@
     rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/signup.css">
+    <link rel="stylesheet" href="../CSS/form.css">
 </head>
 <body>
-    <div class="card m-5 p-5">
+    <div class="card text-light rounded-end p-5">
         <form>
-        <h2 class="head">Sign up</h2>
+        <h2 class="text-warning text-center mb-5">Sign up</h2>
             <div class="form-user">
-                <label for="user_name" class="element">Name :-</label>
-                <input type="text" id="user_name" class="text" placeholder="First name" required>
-                <input type="text" id="user_name" class="text" placeholder="Last name" required>
+                <label for="user_name" class="element m-1 fs-5">Name :-</label>
+                <input type="text" id="user_name" class="text p-3 rounded-3 m-1" placeholder="First name" required>
+                <input type="text" id="user_name" class="text p-3 rounded-3 m-1" placeholder="Last name" required>
             </div>
             <div class="form-user">
-                <label for="user_mail" class="element">Email :-</label>
-                <input type="email" id="user_mail" class="text" placeholder="abc@gmail.com" required>
+                <label for="user_mail" class="element m-1 fs-5">Email :-</label>
+                <input type="email" id="user_mail" class="text p-3 rounded-3 m-1" placeholder="abc@gmail.com" required>
             </div>
             <div class="form-user">
-                <label for="user_contact" class="element">Contact no :-</label>
-                <input type="tel" id="user_contact" class="text" placeholder="6574892705" required>
+                <label for="user_contact" class="element m-1 fs-5">Contact no :-</label>
+                <input type="tel" id="user_contact" class="text p-3 rounded-3 m-1" placeholder="6574892705" required>
             </div>
             <div class="form-user">
-                <label for="pass" class="element">Create your password :-</label>
-                <input type="text" id="pass" class="text" placeholder="Enter your password" required>
+                <label for="pass" class="element m-1 fs-5">Create your password :-</label>
+                <input type="text" id="pass" class="text p-3 rounded-3 m-1" placeholder="Enter your password" required>
             </div>
             <div>
-                <button class="button signup-btn">
-                    Sign up 
+                <button class="btn btn-warning text-light button p-2 my-4">
+                    <a href="../pages/login.html" class="log-page">
+                        Sign up 
+                    </a>
                 </button>
             </div>
             <p class="or">Or Continue with</p>
                 <div>
-                    <button class="button mx-2">
+                    <button class="btn btn-warning text-light button p-1 my-3">
                         <a href="https://www.google.com/" target="_blank">
-                        <i class="fa-brands fa-google btn" style="color: #94cbff;"></i></a>
+                        <i class="fa-brands fa-google btn text-light"></i></a>
                     </button>
                 </div>
                 <div>
-                    <button class="button sign-btn mx-2 my-4">
+                    <button class="btn btn-warning text-light button p-1 my-3">
                         <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fa-brands fa-facebook btn" style="color: #94cbff;"></i></a>
+                        <i class="fa-brands fa-facebook btn text-light"></i></a>
                     </button>
                 </div>
         </form>
