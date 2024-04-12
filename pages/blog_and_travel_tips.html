@@ -23,7 +23,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex; justify-content: space-between;">
             <li class="nav-item">
               <a  href="./../index.html" target="_blank" class="nav-link active nav-option fw-semibold h7" aria-current="page" href="#">HOME</a>
             </li>
@@ -46,6 +46,7 @@
               <a href="./blog_and_travel_tips.html" target="_blank" class="nav-link disabled nav-option fw-semibold h7" aria-disabled="true" >BLOG & TRAVEL TIPS</a>
             </li>
           </ul>
+        
         </div>
       </div>
     </nav>
@@ -62,18 +63,45 @@
             </div>
         
         </div>
+
 <div>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Travel Agency Blog & Tips</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="container">
           <section id="blog-posts">
               <h2>Latest Blog Posts</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-
-              <button onclick="myFunction()" id="myBtn">Read more</button>
-            
+              <div class="post">
+                  <h3>A Seaside Reset in Laguna Beach</h3>
+                  <p>From the iconic to the unexpected, the city of San Francisco never ceases to surprise. Kick-start your effortlessly delivered Northern California holiday in the cosmopolitan hills of The City. Join your Travel Director and fellow travellers for a Welcome Reception at your hotel.</p>
+                  <div class="full-content" style="display: none;">
+                      <p>avatarBY Traveler</p>
+                      <p>April 6, 2022 10:20 Am</p>
+                  </div>
+              </div>
               <div class="post">
                   <h3>Post Title 2</h3>
                   <p>Ut fermentum turpis euismod sapien bibendum, et viverra purus vestibulum. Quisque vel dolor dapibus, convallis sapien ut, fermentum est.</p>
-                  <a href="#" class="read-more">Read more</a>
                   <div class="full-content" style="display: none;">
                       <p>Additional content for Post Title 2.</p>
                   </div>
@@ -188,23 +216,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
     crossorigin="anonymous">
-
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less";
-      moreText.style.display = "inline";
-    }
-  }
-
    </script>
 </body>
 </html>
