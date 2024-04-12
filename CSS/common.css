@@ -6,7 +6,12 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-  }
+}
+    /* font-size=h5 (for common text) in bootstrap
+     font-size=h6 (for descriptive text) in bootstrap 
+     font-size=h2/h3  (for heading text) in bootstrap */
+  
+
 
   /* common color theme
   button= btn btn-warning;
