@@ -69,37 +69,38 @@
 
 <!-- Footer -->
 <div class="container-footer">
-<div class="newsletter">
-  <h3>Join the Newsletter</h3>
-  <p>To receive our best monthly deals</p>
-  <form action="#" method="post">
-    <input type="email" name="email" placeholder="Your email address" required>
-    <input type="submit" value="Subscribe">
-  </form>
-</div>
+  <div class="newsletter">
+    <h3>Join the Newsletter</h3>
+    <p>To receive our best monthly deals</p>
+    <form action="#" method="post" onsubmit="return getUserEmail()">
+      <input type="email" id="emailInput" name="email" placeholder="Your email address" required>
+      <input type="submit">
+    </form>
+    <p id="userEmail"></p>
+  </div>
 <footer class="footer" >
-  <div style="max-width: 1200px; margin: 0 auto;">
-    <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between">
-      <div style=" display:block ;justify-content: space-between">
+  <div class="footer-body">
+    <div class="footer-container">
+      <div class="footer-container2">
         <div style="display:flex">
-        <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 style="color: #333; margin-bottom: 20px;" class="footer-head h5"> Address</h3>
+        <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 class="footer-head h5"> Address</h3>
         </div><br/>
         <p  class="h6 footer-contact">101, Serenity Road, Seminary Hills</p>
         <p class="h6 footer-contact">Nagpur, Maharashtra 440006</p>
         <p class="h6 footer-contact">India</p>
-        <div style="display:flex">
-          <img src="./../icons/telephone.png" style="width: 25px; height: 25px;"><h3 style="color: #333; margin-bottom: 20px;" class="footer-head h5"> More Enquiry</h3>
+        <div style="display:flex;">
+          <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px"><h3   class="footer-head h5"> More Enquiry</h3>
           </div>
         <a href="tel:9970059488" class="h6 footer-contact-us">Phone: 0124 462 8747</a><br/>
 
         <div style="display:flex">
-          <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3 style="color: #333; margin-bottom: 20px;" class="footer-head h5"> Send Mail</h3>
+          <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3  class="footer-head h5"> Send Mail</h3>
           </div>
         <a href="mail to:vasundharashivankar179@gmail.com" class="h6 footer-contact-us">Email: customer.service@globetrek.com</a>
       </div>
 
       <div>
-        <h3 style="color: #333; margin-bottom: 20px;" class="footer-head h5">Quick Links</h3>
+        <h3 class="footer-head h5">Quick Links</h3>
         <div style="display: block; align-items: center;">
           <div><a href="#" class="h6 footer-quick-links">About Us</a></div>
           <div><a href="#" class="h6 footer-quick-links">Destinations</a></div>
@@ -109,7 +110,7 @@
       </div>
 
       <div>
-      <h3 style="color: #333; margin-bottom: 20px;" class="footer-head h5">Company</h3>
+      <h3 class="footer-head h5">Company</h3>
       <div style="display: block; align-items: center;">
         <div><a href="#" class="h6 footer-quick-links">Careers</a></div>
         <div><a href="#" class="h6 footer-quick-links">Jobs</a></div>
@@ -122,20 +123,20 @@
       </div>
     
       <div>
-        <h3 style="color: #333; margin-bottom: 20px;" class="footer-head h5">Follow Us</h3>
+        <h3 class="footer-head h5">Follow Us</h3>
         <div style="display: flex; flex-direction: column;">
-          <div style="margin-bottom: 10px;"><a href="#"><img src="./../icons/facebook.png" alt="Facebook" style="width: 30px; height: auto;">Facebook</a></div>
-          <div style="margin-bottom: 10px;"><a href="#"><img src="./../icons/twitter.png" alt="Twitter" style="width: 30px; height: auto;">Twitter</a></div>
-          <div><a href="#"><img src="./../icons/instagram.png" alt="Instagram" style="width: 30px; height: auto;">Instagram</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png" alt="Facebook"  class="footer-icon">Facebook</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png" alt="Twitter"  class="footer-icon">Twitter</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png" alt="Instagram" class="footer-icon">Instagram</a></div>
         </div>
       <br/>
         <div>
-        <h3 style="color: #333; margin-bottom: 20px;" class="footer-head h5">Payment Partner</h3>
+        <h3 class="footer-head h5">Payment Partner</h3>
         <div style="display: flex; justify-content: space-between;">
-          <div style="margin-bottom: 10px;"><img src="./../icons/visa.png" style="width: 30px; height: auto;"></div>
-          <div style="margin-bottom: 10px;"><img src="./../icons/stripe.png" style="width: 30px; height: auto;"></div>
-          <div style="margin-bottom: 10px;"><img src="./../icons/paypal.png" style="width: 30px; height: auto;"></div>
-          <div style="margin-bottom: 10px;"><img src="./../icons/skrill.png" style="width: 30px; height: auto;"></div>
+          <div class="footer-icon-container"><img src="./../icons/visa.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/stripe.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/paypal.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/skrill.png"  class="footer-icon"></div>
         </div>
       </div>
     </div>
