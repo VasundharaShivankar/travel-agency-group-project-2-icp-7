@@ -47,30 +47,42 @@
         }
         .post-review{
           display:flex;
+          margin-top: 5px;
           justify-content: space-evenly;
         }
-        .like-container {
-          margin-top: 10px;
+        .like-container{
+          margin:3px -10px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
         }
-        
-        .like-btn {
-          background-color: #4CAF50;
+        .btn-like{
+          margin:5px 30px;
+        }
+        .like-btn, .dislike-btn {
+          background-color:transparent;
           color: white;
-          padding: 10px 20px;
+          font-size:larger;
           border: none;
           border-radius: 5px;
           cursor: pointer;
         }
-        
-        .like-btn:hover {
-          background-color: #45a049;
+        .like-btn:hover{
+          font-size:21px;
+          transition: 0.5s;
         }
-        
+        .dislike-btn:hover{
+          font-size:21px;
+          transition:0.5s;
+        }
         .like-count {
           margin-left: 10px;
         }
         .post-comment{
           justify-content: space-evenly;
+        }
+        .comment{
+          width: 95%;
         }
          .container-footer{
           align-items: center;
