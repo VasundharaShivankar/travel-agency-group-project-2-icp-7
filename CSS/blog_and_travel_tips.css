@@ -39,7 +39,7 @@
         .newsletter {
           position: relative;
           align-items: center;
-          width:500px;
+          width:600px;
           margin:0 auto;
       background-color: #d0e5e9;
       padding: 20px;
@@ -78,6 +78,7 @@
       padding: 10px;
       border: 1px solid #ccc;
       border-radius: 5px;
+      margin:10px auto;
       margin-bottom: 10px;
   }
   .error-message {

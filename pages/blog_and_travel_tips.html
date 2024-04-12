@@ -70,14 +70,14 @@
 
 <!-- Footer -->
 <div class="container-footer">
-  <div class="newsletter">
-    <h3>Join the Newsletter</h3>
-    <p>To receive our best monthly deals</p>
-    <form id="emailForm" onsubmit="return isValidEmail()">
-        <label for="email">Enter your email:</label>
-        <input type="email" id="emailInput" class="email-input" placeholder="example@example.com">
+  <div class="newsletter p-2 justify-content-center">
+    <h3 style="text-align: center;margin-top:10px">Join the Newsletter</h3>
+    <p style="text-align: center;">To receive our best monthly deals</p>
+    <form id="emailForm" onsubmit="return isValidEmail()" style="display: flex;">
+        <label for="email" ></label>
+        <input type="email" id="emailInput" class="email-input" placeholder="vasundhara@gmail.com" >
         <p class="error-message" id="errorMessage"></p>
-        <input type="submit" value="Submit">
+        <button type="submit" value="Submit" class="btn btn-warning" style="height:45px; margin-top:10px;margin-left:-20px;margin-right:20px;">Submit</button>
     </form>
 </div>
 <footer class="footer" >
