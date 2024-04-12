@@ -1,14 +1,18 @@
 body{
-    font-family: cursive;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
     font-style: oblique;
+    background-image: url(../img/sara-dubler-Koei_7yYtIo-unsplash\ \(1\).jpg);
+    background-size: cover;
 }
 .card{
     height: 100%;
     width: 450px;
     border-radius: 20px;
-    background-color: #c2e05e;
-    color: Red;
+    background-color: transparent;
+    color: black;
+    margin: 90px auto;git 
+    backdrop-filter: blur(10px);
 }
 .head{
     text-align: center;
@@ -25,7 +29,7 @@ body{
     height: 25px;
 }
 .text{
-    color: red;
+    color: white;
     padding: 5px;
     border-radius: 15px;
     border: 1px solid black;
@@ -40,12 +44,7 @@ body{
 .button{
     width: 100%;
     border-radius: 25px;
-    border: 1px solid black;
-    height: 40px;
-    margin: 10px;
-    font-size: 19px;
-    color: red;
-    margin-top: 40px;
+    text-align: center;
 }
 .sub-btn{
     margin-top: 10px;
@@ -53,7 +52,7 @@ body{
 }
 .reset-pass{
     text-decoration: none;
-    color: red;
+    color: white;
     margin-left: 90px;
 }
 .log-btn{
