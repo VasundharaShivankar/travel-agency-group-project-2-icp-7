@@ -43,8 +43,14 @@
         .post{
           width: 45%;
         }
-        .post-comment{
+        .post-img{
+         width:95%;
+        }
+        .post-review{
           display:flex;
+          justify-content: space-evenly;
+        }
+        .post-comment{
           justify-content: space-evenly;
         }
          .container-footer{
