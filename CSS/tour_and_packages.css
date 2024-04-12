@@ -5,9 +5,10 @@
 /*carousel css*/
 
 .applycss{
-  width:100vh;
-  height: 80vh;
-  margin: 30px auto;
+  width: 100vh;
+  height: ;
+  
+  margin:20px auto;
 
 }
 .carousel-caption{
@@ -125,7 +126,7 @@ h5 img{
 
 /* css for the all the packages page starts fron here */
 
-/* thailand */
+/*  packages cards  */
 
 .image-effect:hover{
   box-shadow: 0 0 10px 2px grey;
@@ -133,7 +134,7 @@ h5 img{
 
 
 .australia .image-effect{
-  height: 210px;
+  height: ;
   width: 80%;
   margin: 30px auto;
 
@@ -181,15 +182,17 @@ object-fit: cover;
     }
     .containerof {
       position: relative;
-      height: 200px;
+      
       width: 100vh;
+      padding: 10px;
     }
     
     .image {
       display: block;
       width: 100%;
       height: auto;
-      object-fit: cover;
+      
+
     }
     
     .overlay {
