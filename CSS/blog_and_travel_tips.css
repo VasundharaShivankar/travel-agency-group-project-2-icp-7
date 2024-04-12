@@ -49,6 +49,26 @@
           display:flex;
           justify-content: space-evenly;
         }
+        .like-container {
+          margin-top: 10px;
+        }
+        
+        .like-btn {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        
+        .like-btn:hover {
+          background-color: #45a049;
+        }
+        
+        .like-count {
+          margin-left: 10px;
+        }
         .post-comment{
           justify-content: space-evenly;
         }

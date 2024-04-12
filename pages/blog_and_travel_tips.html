@@ -68,6 +68,11 @@
               <div class="post">
                 <img src="./../img/blog_img/activity8.jpg" class="post-img">
                 <div class="post-review">
+                  <div class="like-container">
+                    <button id="like-btn" class="like-btn" onclick="incrementLikes()">Like</button>
+                    <button id="dislike-btn" class="dislike-btn" onclick="decrementLikes()">Dislike</button>
+                    <span id="like-count" class="like-count">0</span>
+                  </div>
                 <p>47 Views</p>
                 <p>(0) Comment</p>
                 </div>
@@ -189,7 +194,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
-    crossorigin="anonymous">
+    crossorigin="anonymous"
+    src="./../js/blog_and_travel_tips.js">
    </script>
 </body>
 </html>

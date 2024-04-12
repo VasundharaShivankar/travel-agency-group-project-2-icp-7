@@ -1,4 +1,27 @@
+// Get the like button, dislike button, and like count element
+const likeBtn = document.getElementById('like-btn');
+const dislikeBtn = document.getElementById('dislike-btn');
+const likeCount = document.getElementById('like-count');
 
+let likes = 0;
+
+// Function to increment likes
+function incrementLikes() {
+  likes++;
+  likeCount.textContent = likes;
+}
+
+// Function to decrement likes
+function decrementLikes() {
+  if (likes > 0) {
+    likes--;
+    likeCount.textContent = likes;
+  }
+}
+
+// Event listeners for like button clicks
+likeBtn.addEventListener('click', incrementLikes);
+dislikeBtn.addEventListener('click', decrementLikes);
 
 
 function isValidEmail() {
