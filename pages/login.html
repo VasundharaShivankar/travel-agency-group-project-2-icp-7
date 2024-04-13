@@ -8,19 +8,22 @@
     rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../CSS/form.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
-    <div class="card m-5 p-5">
+    <div class="card text-light rounded-end p-5">
         <form>
-        <h2 class="head">Log in</h2>
+        <h2 class="text-warning text-center mb-4">Log in</h2>
             <div class="form-user">
-                <label for="username" class="element">Username :-</label>
-                <input type="text" id="user_name" class="text" placeholder="Enter your username" required>
+                <label for="username" class="element m-1 fs-5">Username :-</label>
+                <input type="text" id="user_name" class="text p-3 rounded-3 m-1" placeholder="Enter your username" required>
             </div>
             <div class="form-user">
-                <label for="pass" class="element">Password :-</label>
-                <input type="password" id="pass" class="text" placeholder="Enter your password" required>
+                <label for="pass" class="element m-1 fs-5">Password :-</label>
+                <input type="password" id="pass" class="text p-3 rounded-3 m-1" placeholder="Enter your password" required>
             </div>
             <div>
                 <label for="check">Remember me</label>
@@ -28,7 +31,7 @@
                 <a href="../pages/forgot.html" class="reset-pass">Forgot password</a>   
             </div>
             <div>
-                <button class="button">
+                <button class="btn btn-warning text-light button p-2 my-4 ">
                     Log in 
                 </button>
             </div>
