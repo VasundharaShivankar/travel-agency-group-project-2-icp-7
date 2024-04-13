@@ -144,7 +144,7 @@ height: auto;
 .slider-img{
   height:350px;
   width: 50px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 .img-title{
   text-align: center;
@@ -175,7 +175,16 @@ height: auto;
 
 
 
-
+.mission{
+  height: 350px;
+  width: 600px;
+  display: block;
+  margin: 0px auto;
+  border-radius: 30px;
+  box-shadow: 0px 2px 5px 2px rgb(10, 10, 10);
+  background-color: #f5f2f2;
+  padding: 10px 20px;
+}
 .about-img{
     height: 400px;
     width: 1375px;
@@ -194,6 +203,7 @@ height: auto;
 .head{
     position: relative;
     font-family: "Roboto Condensed", sans-serif;
+    width: 600px;
     
 }
 .traveler-img{
@@ -232,6 +242,16 @@ height: auto;
   justify-content: center;
   font-size: 20px;
 }
+.icon1 {
+  display:flex;
+  direction: row;
+  justify-content: space-around;
+  border-radius:50%;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  font-size: 20px;
+}
 .p{
   font-family: "Roboto Condensed", sans-serif;
   display: block;
@@ -262,6 +282,10 @@ height: auto;
   box-shadow: 0 0 4px 1px #868686;
 
 }
+.d-flex{
+  justify-content: center;
+  align-items: center;
+}
 .find{
 
   text-decoration: none;
@@ -271,8 +295,9 @@ height: auto;
   margin-left: 10px;
 }
 .rating-img{
-  height: 200px;
+  height: 150px;
   margin-top: 0px;
+  margin-bottom: 100px;
 }
 .flex{
   position: sticky;
@@ -333,5 +358,12 @@ position: sticky;
 }
 .traveler-img{
   width: 90%;
+}
+.mission{
+  width: 90%;
+  height: 550px;
+}
+.slider-img{
+  height: 200px;
 }
 }
