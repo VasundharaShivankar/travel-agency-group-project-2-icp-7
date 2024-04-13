@@ -219,6 +219,11 @@ object-fit: cover;
    
   }
   @media screen and (max-width:700px) {
+
+    .applycss{
+      width: 100%;
+      margin:0 auto;
+    }
     .australia .image-effect{
       width: 80%;
      
@@ -296,7 +301,7 @@ object-fit: cover;
       font-weight: 700;
       position: absolute;
       top: 60%;
-      left: 70%;
+      left: 50%;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
