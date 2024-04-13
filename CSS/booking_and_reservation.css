@@ -1,5 +1,5 @@
 .bg-train{
-    height: 1150px !important;
+    height: 1300px !important;
     width: 100% !important;
     background: url('./../img/booking_img/bg-trainimg.jpg');
     opacity: 2px;
@@ -19,13 +19,41 @@
     position: relative;
 
 }
+.bg-hotels{
+    height: 1150px !important;
+    width: 100% !important;
+    background: url('./../img/booking_img/bg-hotels-img.avif');
+    opacity: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 
+}
+.container{
+    height: 150%;
+    width: 600px;
+    background-color: transparent;
+    margin: 50px auto;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+}
+.container-train{
+    height: 80%;
+    width: 600px;
+    background-color: transparent;
+    margin: 50px auto;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+}
 .border-head{
     border-radius: 25px;
 }
 
 .form {
     margin-top: 100px;
+    display: block;
+    justify-content: center;
     }
     label{
             
