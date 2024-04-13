@@ -54,6 +54,72 @@ image.addEventListener('mouseleave', function() {
     image4.style.filter = '';
 });
 
+
+function loadMore1() {
+  var contentDiv = document.getElementById("content1");
+  var loadMoreBtn = document.getElementById("loadMoreBtn1");
+
+  if (contentDiv.style.display === "none") {
+    contentDiv.style.display = "block";
+    loadMoreBtn.textContent = "Show Less";
+  } else {
+    contentDiv.style.display = "none";
+    loadMoreBtn.textContent = "Load More";
+  }
+}
+
+function loadMore2() {
+  var contentDiv = document.getElementById("content2");
+  var loadMoreBtn = document.getElementById("loadMoreBtn2");
+
+  if (contentDiv.style.display === "none") {
+    contentDiv.style.display = "block";
+    loadMoreBtn.textContent = "Show Less";
+  } else {
+    contentDiv.style.display = "none";
+    loadMoreBtn.textContent = "Load More";
+  }
+}
+
+function loadMore3() {
+  var contentDiv = document.getElementById("content3");
+  var loadMoreBtn = document.getElementById("loadMoreBtn3");
+
+  if (contentDiv.style.display === "none") {
+    contentDiv.style.display = "block";
+    loadMoreBtn.textContent = "Show Less";
+  } else {
+    contentDiv.style.display = "none";
+    loadMoreBtn.textContent = "Load More";
+  }
+}
+
+function loadMore4() {
+  var contentDiv = document.getElementById("content4");
+  var loadMoreBtn = document.getElementById("loadMoreBtn4");
+
+  if (contentDiv.style.display === "none") {
+    contentDiv.style.display = "block";
+    loadMoreBtn.textContent = "Show Less";
+  } else {
+    contentDiv.style.display = "none";
+    loadMoreBtn.textContent = "Load More";
+  }
+}
+
+function loadMore5() {
+  var contentDiv = document.getElementById("content5");
+  var loadMoreBtn = document.getElementById("loadMoreBtn5");
+
+  if (contentDiv.style.display === "none") {
+    contentDiv.style.display = "block";
+    loadMoreBtn.textContent = "Show Less";
+  } else {
+    contentDiv.style.display = "none";
+    loadMoreBtn.textContent = "Load More";
+  }
+}
+
 image.addEventListener('mouseenter', function() {
   const image5 = document.getElementById('image5');
     image5.style.filter = 'brightness(120%)'; 
