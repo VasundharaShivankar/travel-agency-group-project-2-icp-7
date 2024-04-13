@@ -1,7 +1,8 @@
 body{
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
-    font-style: oblique;
+    font-optical-sizing: auto;
+    font-style: normal;
     background-image: url(../img/jake-blucker-tMzCrBkM99Y-unsplash.jpg);
     background-size: cover;
 }
