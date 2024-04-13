@@ -6,7 +6,7 @@
   position: relative;
   align-items: center;
   width:600px;
-  margin:0 auto;
+  margin:20px auto;
 background-color: #d0e5e9;
 padding: 20px;
 border-radius:20px;
@@ -16,7 +16,6 @@ color: #333;
 margin-bottom: 10px;
 }
 .newsletter p {
-
 color: #666;
 margin-bottom: 10px;
 
@@ -108,6 +107,22 @@ width: 30px;
 height: auto;
 }
 
+.navbar{
+  width:100%;
+  padding:20px;
+  }
+  .nav-option{
+      padding: 5px;
+      font-family: ;
+  }
+  .nav-item{
+    margin:0 3px;
+  }
+.main-logo{
+  margin-right:100px;
+  height:70px;
+  width: 70px;
+}
 
 
 
@@ -150,10 +165,17 @@ height: auto;
 
 .buot{
  display: flex;
+ background-color: #d0e5e9;
   border: none;
   height: 80px;
   width: 300px;
   box-shadow: 0 0 5px 1px #000;
+}
+.buot:hover{
+  border: 2px solid gray;
+  transition: 0.5s;
+  background-color:  rgb(255, 187, 0);
+  border-radius:50px;
 }
 
 .icon{
@@ -161,7 +183,9 @@ height: auto;
   border-radius: 50%;
   height: 60px;
   width: 60px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
   font-size: 20px;
 }
 .p{
@@ -188,6 +212,11 @@ height: auto;
   border: 1px solid #afafaf;;
   box-shadow: 0 0 2px 1px #afafaf;
   height: 300px;
+}
+.col-review:hover{
+  border-radius: 10px;
+  box-shadow: 0 0 4px 1px #868686;
+
 }
 .find{
 
@@ -246,7 +275,7 @@ width: 100%;
 position: relative;
 display: flex;
 flex-wrap: wrap;
-font-size: 10px;
+font-size: 5px;
 }
 
 .btns{
@@ -257,5 +286,8 @@ position: sticky;
 }
 .find{
   margin-left: 40px;
+}
+.traveler-img{
+  width: 90%;
 }
 }
