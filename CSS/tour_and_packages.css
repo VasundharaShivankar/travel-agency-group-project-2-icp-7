@@ -137,7 +137,7 @@
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight:700;
-  font-size: 70px;
+  font-size: 4em;
   width: 500px;
   text-wrap: wrap;
   font-style: normal;
@@ -193,6 +193,15 @@ h5 img{
 object-fit: cover;
 
 }
+.australia .image-effect .card-img:hover{
+    opacity: 0.7;
+    transition:1s ;
+    -webkit-transition:1s ;
+    -moz-transition:1s ;
+    -ms-transition:1s ;
+    -o-transition:1s ;
+}
+
 
 
 
