@@ -5,13 +5,13 @@ body{
     font-style: normal;
     background-image: url(../img/jake-blucker-tMzCrBkM99Y-unsplash.jpg);
     background-size: cover;
-    backdrop-filter: blur(10px);
 }
 .card{
     height: 100%;
     width: 450px;
     background-color: transparent;
     margin: 50px auto;
+    backdrop-filter: blur(10px);
 }
 .card:hover{
     box-shadow: 0px 4px 8px 0px black;
@@ -39,7 +39,6 @@ body{
 }
 .reset-pass{
     text-decoration: none;
-    color: white;
     margin-left: 75px;
 }
 .forgot-pass{
