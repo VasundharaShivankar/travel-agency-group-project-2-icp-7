@@ -171,13 +171,21 @@ height: auto;
   width: 300px;
   box-shadow: 0 0 5px 1px #000;
 }
+.buot:hover{
+  border: 2px solid gray;
+  transition: 0.5s;
+  background-color:  rgb(255, 187, 0);
+  border-radius:50px;
+}
 
 .icon{
   display: inline;
   border-radius: 50%;
   height: 60px;
   width: 60px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
   font-size: 20px;
 }
 .p{
@@ -204,6 +212,11 @@ height: auto;
   border: 1px solid #afafaf;;
   box-shadow: 0 0 2px 1px #afafaf;
   height: 300px;
+}
+.col-review:hover{
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px #868686;
+
 }
 .find{
 
