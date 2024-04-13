@@ -1,14 +1,5 @@
-
-.booking-img {
-    height: 1000px !important;
-    width: 100% !important;
-    margin-top:100px;
-    background: url('./../img/booking_img/frontbook.img');
-    opacity: 95px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+.bg{
+    background-color: #d0e5e9;
 }
 .form {
     margin-top: 100px;
