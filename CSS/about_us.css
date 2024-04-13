@@ -262,7 +262,7 @@ width: 100%;
 position: relative;
 display: flex;
 flex-wrap: wrap;
-font-size: 10px;
+font-size: 5px;
 }
 
 .btns{
@@ -273,5 +273,8 @@ position: sticky;
 }
 .find{
   margin-left: 40px;
+}
+.traveler-img{
+  width: 90%;
 }
 }
