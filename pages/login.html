@@ -8,13 +8,14 @@
     rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../js/form.js">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
-<body>
-    <div class="card text-light rounded-end p-5">
+<body class="body">
+    <div class="card text-dark rounded-end p-5">
         <form>
         <h2 class="text-warning text-center mb-4">Log in</h2>
             <div class="form-user">
@@ -23,12 +24,12 @@
             </div>
             <div class="form-user">
                 <label for="pass" class="element m-1 fs-5">Password :-</label>
-                <input type="password" id="pass" class="text p-3 rounded-3 m-1" placeholder="Enter your password" required>
+                <input type="password" id="password"  class="text p-3 rounded-3 m-1" placeholder="Enter your password" required>
             </div>
             <div>
                 <label for="check">Remember me</label>
                 <input type="checkbox" id="check">
-                <a href="../pages/forgot.html" class="reset-pass">Forgot password</a>   
+                <a href="../pages/forgot.html" class="forgot-pass text-dark">Forgot password</a>   
             </div>
             <div>
                 <button class="btn btn-warning text-light button p-2 my-4 ">
@@ -37,5 +38,24 @@
             </div>
         </form>
     </div>
+    <script>
+      
+    function validateForm() {
+       let password = document.getElementById("password").value;
+    let passwordError = document.getElementById("passwordError");
+
+        // Check if password is exactly 8 digits
+        let passwordPattern = /^\d{8}$/;
+        if (!passwordPattern.test(password)) {
+            alert("Password must be 8 digits long.");
+            return false;
+        } else {
+            passwordError.textContent = "";
+            return true;
+        }
+    }
+
+
+    </script>
 </body>
 </html>

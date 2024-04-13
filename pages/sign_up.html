@@ -14,8 +14,8 @@
     </style>
 </head>
 <body>
-    <div class="card text-light rounded-end p-5">
-        <form>
+    <div class="card text-dark rounded-end p-5">
+        <form id="loginForm"onsubmit="return validateForm()" >
         <h2 class="text-warning text-center mb-5">Sign up</h2>
             <div class="form-user">
                 <label for="user_name" class="element m-1 fs-5">Name :-</label>
@@ -28,11 +28,19 @@
             </div>
             <div class="form-user">
                 <label for="user_contact" class="element m-1 fs-5">Contact no :-</label>
-                <input type="tel" id="user_contact" class="text p-3 rounded-3 m-1" placeholder="6574892705" required>
+                <input type="tel" id="mobile" class="text p-3 rounded-3 m-1" placeholder="6574892705" required>
             </div>
             <div class="form-user">
                 <label for="pass" class="element m-1 fs-5">Create your password :-</label>
-                <input type="text" id="pass" class="text p-3 rounded-3 m-1" placeholder="Enter your password" required>
+                <input type="text" id="password" class="text p-3 rounded-3 m-1" placeholder="Enter your password" required>
+            </div>
+            <div class="terms">
+                <input type="checkbox" id="terms" required>
+                <label for="terms" >I've agreed to the privacy policy and terms & conditions.</label>
+            </div>
+            <div class="account">
+                <span >Already have an account ?</span>
+                <a href="../pages/login.html" class="reset text-dark">Login here</a>
             </div>
             <div>
                 <button class="btn btn-warning text-light button p-2 my-4">
@@ -57,5 +65,23 @@
         </form>
 
     <script src="https://kit.fontawesome.com/38442ccd2f.js" crossorigin="anonymous"></script>
+
+    
+  <script>
+  function validateForm() {
+       let password = document.getElementById("password").value;
+
+        // Check if password is exactly 8 digits
+        let passwordPattern = /^\d{8}$/;
+        if (!passwordPattern.test(password)) {
+            alert("Password must be 8 digits long.");
+            return false;
+        } else {
+            passwordError.textContent = "";
+            return true;
+        }
+
+}
+   </script>
 </body>
 </html>
