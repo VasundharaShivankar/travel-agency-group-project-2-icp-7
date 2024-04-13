@@ -23,7 +23,6 @@
 .blog_image_container {
     height: 600px !important;
     width: 100% !important;
-   
     background: url('./../img/blog_img/main.png');
     opacity: 95px;
     background-repeat: no-repeat;
@@ -40,11 +39,68 @@
           margin-bottom:0px; 
           padding:0px;
         }
-        .more {
-          display: none;
-      }
-      
-        .container-footer{
+        .post-container{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .post{
+          width: 45%;
+          padding: 10px;
+          margin-bottom: 30px;
+        }
+        .post-img{
+         width:95%;
+        }
+        .post-review{
+          display:flex;
+          margin-top: 5px;
+          justify-content: space-evenly;
+        }
+        .like-container{
+          margin:3px -10px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+        }
+        .btn-like{
+          margin:5px 30px;
+        }
+        .like-btn, .dislike-btn {
+          background-color:transparent;
+          color: white;
+          font-size:larger;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .like-btn:hover{
+          font-size:21px;
+          transition: 0.5s;
+        }
+        .dislike-btn:hover{
+          font-size:21px;
+          transition:0.5s;
+        }
+        .like-count {
+          margin-left: 10px;
+        }
+        .post-comment{
+          justify-content: space-evenly;
+          background-color:#d0e5e9;
+          border-radius:20px;
+          position: relative;
+          align-items: center;
+          width:500px;
+          margin-top: 10px;
+        }
+        .comment{
+          width: 98%;
+          height: 50px;
+          border-radius: 5px;
+          margin-bottom: 10px;
+         
+        }
+         .container-footer{
           align-items: center;
         }
 
@@ -52,7 +108,7 @@
           position: relative;
           align-items: center;
           width:600px;
-          margin:0 auto;
+          margin:20px auto;
       background-color: #d0e5e9;
       padding: 20px;
       border-radius:20px;
