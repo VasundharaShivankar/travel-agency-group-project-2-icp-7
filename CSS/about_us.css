@@ -150,6 +150,7 @@ height: auto;
 
 .buot{
  display: flex;
+ background-color: #d0e5e9;
   border: none;
   height: 80px;
   width: 300px;
@@ -233,14 +234,6 @@ justify-content: center;
   font-weight: weight;
   font-style: normal;
 }
-.hover-effect {
-  position: absolute;
-   top: 0;
-   background-color: rgba(0, 0, 0, 0.5);
-   color: #fff;
-   padding: 5px;
-   transition: left 0.3s ease;
-
 
 
 @media screen and (max-width:756px){
