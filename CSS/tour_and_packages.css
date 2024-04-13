@@ -12,6 +12,7 @@
 .navbar{
   width:100%;
   padding:20px;
+  font-size: 14px;
   }
   .nav-option{
       padding: 5px;
@@ -70,12 +71,12 @@
     margin-bottom: -25px;
     margin: 0 10px;
 }
-.img-container img{
-height: 150px;
-cursor: pointer;
+.img-container img{ height: 150px; cursor: pointer; margin-top: 100px; 
+ 
 }
+
 .heading{
-    height: 500px;
+    height: 600px;
     width: auto;
     background-image: url("./../img/packages_img/background/background.jpg");
     background-repeat: no-repeat;
@@ -85,15 +86,13 @@ cursor: pointer;
     
 }
 .heading1{
-    height: 500px;
+    height: 600px;
     width: auto;
     background-image: url("./../img/packages_img/background/bg1.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
     background-size: cover;
-    
-    
 }
 .border{
     border: 1px solid white;
@@ -103,7 +102,7 @@ cursor: pointer;
     border-radius: 1px solid;
 }
 .heading2{
-    height: 500px;
+    height: 600px;
     width: auto;
     background-image: url("./../img/packages_img/background/bg2.jpg");
     background-repeat: no-repeat;
@@ -113,7 +112,7 @@ cursor: pointer;
     
 }
 .heading3{
-    height: 500px;
+    height: 600px;
     width: auto;
     background-image: url("./../img/packages_img/background/bg3.jpg");
     background-repeat: no-repeat;
@@ -123,7 +122,7 @@ cursor: pointer;
     
 }
 .heading4{
-    height: 500px;
+    height: 600px;
     width: auto;
     background-image: url("./../img/packages_img/background/bg4.jpg");
     background-repeat: no-repeat;
@@ -152,8 +151,18 @@ button{
     margin:10px auto;
     
 }
+.card .card-img-top{
+  cursor: pointer;
+  
+
+}
 h5 img{
     height: 5vh;
+    
+}
+.card .card-img-top:hover{
+  transition: 0.3s;
+  opacity: 0.5;
 }
 
 
