@@ -34,18 +34,20 @@
           font-size: 55px;
           color:white;
           width:950px;
-          font-family:;
           margin-top:60px;
           margin-bottom:0px; 
           padding:0px;
         }
-        
+        .heading{
+          font-size: 60px;
+        }
         .post-container{
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
+          margin-top:0px;
           margin:auto;
-          width:90%;
+          width:98%;
           padding: 20px;
         }
         .post{

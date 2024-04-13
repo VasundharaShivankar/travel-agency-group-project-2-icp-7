@@ -150,51 +150,7 @@
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script>
-    function inc(){
-            const quantityText = document.getElementById('quantity-text');
-            let quantity = parseInt(quantityText.innerText);
-
-            quantityText.innerText = ++quantity;
-    }
-            
-    function dec(){
-        const quantityText = document.getElementById('quantity-text');
-            let quantity = parseInt(quantityText.innerText);
-
-           
-            if(quantity>1)
-            {
-                quantityText.innerText = --quantity;
-
-            }
-    
-    else{
-        alert("you can' add less than one traveler");
-    }
-    }
-    function incre(){
-            const quantityText = document.getElementById('quan-txt');
-            let quantity = parseInt(quantityText.innerText);
-
-            quantityText.innerText = ++quantity;
-    }
-            
-    function decre(){
-        const quantityText = document.getElementById('quan-txt');
-            let quantity = parseInt(quantityText.innerText);
-
-           
-            if(quantity>0)
-            {
-                quantityText.innerText = --quantity;
-
-            }
-    
-    else{
-        alert("you can' add less than zero child traveler");
-    }
-    }
+<script src="./../js/booking_and_reservation.js">
     
 </script>
 </body>
