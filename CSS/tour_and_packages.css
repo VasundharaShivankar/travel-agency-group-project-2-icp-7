@@ -71,7 +71,7 @@
     margin-bottom: -25px;
     margin: 0 10px;
 }
-.img-container img{ height: 150px; cursor: pointer; margin-top: 100px; 
+.img-container img{ height: 150px; cursor: pointer; margin-top: 7%; 
  
 }
 
@@ -137,14 +137,16 @@
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight:700;
-  font-size: 4em;
-  width: 500px;
+  font-size: 70px;
+  width: 40%;
   text-wrap: wrap;
   font-style: normal;
   text-align: center;
-  padding-left: 20px;
+  margin-left: 17%;
+  padding-top: 5%;
+  /* padding-left: 20px;
   padding-top: 60px;
-  margin-left: 200px;
+  margin-left: 200px; */
 }
 button{
     width: 50%;
@@ -228,6 +230,11 @@ object-fit: cover;
       font-size: 20px;
      
     }
+    .img-container img{ height: 50px;
+       cursor: pointer; 
+       margin-top: px; 
+ 
+    }
     
     .second{
       visibility: hidden;
@@ -250,6 +257,10 @@ object-fit: cover;
       height: auto;
       
 
+    }
+    .jost-font{
+      font-size: 2em;
+      width: 60%;
     }
     
     .overlay {
