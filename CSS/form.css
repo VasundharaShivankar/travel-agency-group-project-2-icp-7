@@ -64,10 +64,11 @@ body{
 }
 .reset{
     text-decoration: none;
+}
 @media screen and (max-width:756px){
     .card{
         width: 50%;
-
+    }
 }
 .text{
     width: 90%;
