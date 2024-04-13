@@ -1,11 +1,59 @@
+.roboto-condensed-uniquifier{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.navbar{
+    width:100%;
+    padding:20px;
+    }
+    .nav-option{
+        padding: 5px;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+    .nav-item{
+      margin:0 3px;
+    }
+  .main-logo{
+    margin-right:100px;
+    height:70px;
+    width: 70px;
+  }
+  
+  
+
 .heading {
     text-align: center;
     font-weight: bold;
     font-size: 80px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .card-title {
     font-weight: bold;
 }
+.blog_image_container {
+    height: 600px !important;
+    width: 100% !important;
+    background: url('./../img/destinations_img/background8.jpeg');
+    opacity: 95px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+        .caption-main{
+          font-size: 55px;
+          color:white;
+          width:950px;
+          text-align: center;
+          font-family: "Roboto Condensed", sans-serif;
+         
+          margin-top:60px;
+          margin-bottom:0px; 
+          padding:0px;
+        }
+
 .gallery {
     width:auto;
     display: flex;
@@ -52,6 +100,7 @@
     transition: 0.3s;
 }
 /* //footer-css */
+
 .container-footer{
     align-items: center;
   }
@@ -60,7 +109,7 @@
     position: relative;
     align-items: center;
     width:600px;
-    margin:0 auto;
+    margin:20px auto;
 background-color: #d0e5e9;
 padding: 20px;
 border-radius:20px;
@@ -70,7 +119,6 @@ color: #333;
 margin-bottom: 10px;
 }
 .newsletter p {
-
 color: #666;
 margin-bottom: 10px;
 
