@@ -1,0 +1,134 @@
+.bg-train{
+    height: 1300px !important;
+    width: 100% !important;
+    background: url('./../img/booking_img/bg-trainimg.jpg');
+    opacity: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bg-plane{
+    height: 1150px !important;
+    width: 100% !important;
+    background: url('./../img/booking_img/bg-plane2-img.jpg');
+    opacity: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.bg-hotels{
+    height: 1150px !important;
+    width: 100% !important;
+    background: url('./../img/booking_img/bg-hotels-img.avif');
+    opacity: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.container{
+    height: 150%;
+    width: 600px;
+    background-color: transparent;
+    margin: 50px auto;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+}
+.container-train{
+    height: 80%;
+    width: 600px;
+    background-color: transparent;
+    margin: 50px auto;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+}
+.border-head{
+    border-radius: 25px;
+}
+
+.form {
+    margin-top: 100px;
+    display: block;
+    justify-content: center;
+    }
+    label{
+            
+        display: block;
+        margin-bottom: 5px;
+       
+    
+    }
+    .input{
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: white;
+    
+
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="#"],
+    input[type="submit"] 
+    {
+            width: 30%;
+            padding: 25px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            background-color: white;
+            
+    }
+    input[type="submit"]:hover {
+        background-color: #ffc107;
+    }
+    .travelers-inc-dec{
+            margin-left: 35%;
+            width: 30%;
+            padding: 25px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            justify-content: center;
+            background-color: white;
+            
+    }
+    
+         .menu{
+            color: black;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+         }
+         .menu:hover {
+            background-color: #555;
+             }
+        .flights{
+            background-color: #d0e5e9;
+        }
+        .btn-quantity{
+            height: 35px;
+            justify-content: center;
+
+        }
+        .already{
+            font-size: 25px;
+           
+            margin: auto 10px;
+            cursor: pointer;
+        }
+        .container-train{
+            display: block;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 5px;
+       
+        }
+        

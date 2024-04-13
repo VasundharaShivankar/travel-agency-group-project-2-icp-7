@@ -8,22 +8,63 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="../css/about_us.css">
+    <link href="./../js/about_us.js" >
 
-    <script
-    src="https://kit.fontawesome.com/fabfdf08cb.js"
-    crossorigin="anonymous"></script>
+
+
+    <script>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+  </script>
 
     <title>About Us Page</title>
 </head>
-<body>
-    <img src="../img/about_img/about.webp"class="about-img my-auto p-3">
-    <div class="content ">
-      <h1 class="text-start  mx-5 p-3  fs-1 head fw-bold text-warning">About</h1>
-      <h1 class="head text-start  mx-5 p-3  fs-1  fw-bold text-warning ">We provide the best tour facilities.</h1>
-      <p class="head text-start  mx-5  fs-5 ">
-        Etiam ac tortor id purus commodo vulputate.<br> Vestibulum porttitor erat felis and<br> sed vehicula tortor malesuada gravida.<br> 
-        Mauris volutpat enim quis pulv gont congue. <br>
-        Suspendisse ullamcorper</p>
+<body>  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <img src="./../icons/main-logo.jpg" class="main-logo">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex; justify-content: space-between;">
+        <li class="nav-item">
+          <a  href="./../index.html" target="_blank" class="nav-link active nav-option fw-semibold h7" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item ">
+          <a href="./about_us.html" target="_blank" class="nav-link disabled nav-option fw-semibold h7" href="#"aria-disabled="true">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a href="./tour_and_packages.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">TOUR & PACKAGES</a>
+        </li>
+        <li class="nav-item">
+          <a href="./special_offers.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">SPECIAL OFFERS</a>
+        </li>
+      <li class="nav-item">
+        <a href="./booking_and_reservation.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" >BOOKING & RESERVATION</a>
+      </li>
+      <li class="nav-item">
+          <a href="./blog_and_travel_tips.html" target="_blank" class="nav-link active  nav-option fw-semibold h7"  >BLOG & TRAVEL TIPS</a>
+        </li>
+        <li class="nav-item">
+          <a href="./contact_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">CONTACT US</a>
+        </li>
+      </ul>
+    
+    </div>
+     <a href="./sign_up.html" target="_blank" style="text-decoration: none;"><i class="fa-solid fa-user-plus fs-3" style="cursor:pointer; text-decoration: none" ></i></a>
+  </div>
+</nav>
+
+    
+      <h1 class="text-center fs-1 head fw-bold  text-black my-5">About</h1>
+      <div class="content ">
+      <h1 class="head text-start  mx-5 p-3  fs-3  fw-bold text-warning ">We provide the best tour facilities.</h1>
+      <p class="head text-start  mx-5  fs-5 d-flex">
+        Etiam ac tortor id purus commodo vulputate.Vestibulum porttitor erat felis and sed vehicula tortor malesuada gravida.
+        Mauris volutpat enim quis pulv gont congue. 
+        Suspendisse ullamcorper
+        Part of the role of the travel agency is to market prepackaged travel tours and holidays to potential travellers. The agency can further function as a broker between the traveller and hotels, car rentals, and tour companies.
+      </p>
     </div>
     <div>
           <img src="../img/about_img/Travellers.jpg"class="rounded traveler-img shadow rounded">
@@ -31,13 +72,13 @@
     <div class="btns">
         <div >
          
-          <button type="button" class="btn btn-warning  mx-5 p-3  rounded  my-4 buot d-flex">
+          <button type="button" class="btn  mx-5 p-3  rounded  my-4 buot d-flex">
               <img src="../img/about_img/first-aid-kit.png"class="icon mx-3  bg-light"><p class="p ">Safety First
               Always
               </p></button>
            
           
-          <button type="button" class="btn btn-warning mx-5 p-3  rounded my-4 buot d-flex">
+          <button type="button" class="btn  mx-5 p-3  rounded my-4 buot d-flex">
               <img src="../img/about_img/calendar.png"class="icon mx-3 bg-light"><p class="p">Time And Stress
               Savings</p></button>
         </div>
@@ -51,7 +92,7 @@
             <img src="../img/about_img/tour-guide.png"class="icon mx-3 bg-light"><p class="p">Trusted Travel Guide</p></button>
         </div>
     </div>     
-      <button type="button" class="btn1 btn-lg mx-6 btn-warning">Know More</button>
+      <button type="button" class="btn1 btn-lg mx-6 btn btn-warning">Know More</button>
       <a href="https://youtu.be/JfeRD0PRTpM?si=d4dY0tFu9bSRNv68"class="find"><img src="../img/about_img/play.png" class="icon find"><span class="find text-warning ">Find Tour</span></a>
       <hr>
     <div class="flex">
@@ -71,123 +112,180 @@
       </div>
     </div>
     <hr>
-      <h1 class="text-center text-warning text">Team Members</h1>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col shadow rounded">
-           <img src="../img/about_img/traveler.jpeg"class=" teammber-img">
-          </div>
-          <div class="col shadow rounded">
-            <img src="../img/about_img/traveler.jpeg"class=" teammber-img">
-
-          </div>
-          <div class="col shadow rounded">
-            <img src="../img/about_img/traveler.jpeg"class=" teammber-img">
-          </div>
-        </div>
-      </div><hr>
-      <div class="container text-center">      
-        <h1 class="text-center text-warning text ">User Reviews</h1>
-        <div class="row review">
-          <div class="col-review shadow ">
-            <img src="../img/about_img/rating.png"class="rating-img p-0 m-0">
-         <p class="my-3">I thought we got a great price with TravelOnline and on top of that the booking process was so easy.  </p>
-          </div>
-          <div class="col-review shadow">
-            <img src="../img/about_img/rating.png"class="rating-img">
-            <p>It was very easy to book our holiday. Lisa was helpful when we needed to change some details.
-          </div>
-          <div class="col-review shadow ">
-            <img src="../img/about_img/rating.png"class="rating-img">
-            <p>Nicole provided really good service and I will refer to her again for future holidays. It was nice having an actual person to ask questions to</p>
-          </div>
-        </div>
-      </div><hr>
-      
-
-      <!-- Footer -->
-<div class="container-footer">
-  <div class="newsletter">
-    <h3>Join the Newsletter</h3>
-    <p>To receive our best monthly deals</p>
-    <form id="emailForm" onsubmit="return isValidEmail()">
-        <label for="email">Enter your email:</label>
-        <input type="email" id="emailInput" class="email-input" placeholder="example@example.com">
-        <p class="error-message" id="errorMessage"></p>
-        <input type="submit" value="Submit">
-    </form>
-</div>
-<footer class="footer" >
-  <div class="footer-body">
-    <div class="footer-container">
-      <div class="footer-container2">
-        <div style="display:flex">
-        <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 class="footer-head h5"> Address</h3>
-        </div><br/>
-        <p  class="h6 footer-contact">101, Serenity Road, Seminary Hills</p>
-        <p class="h6 footer-contact">Nagpur, Maharashtra 440006</p>
-        <p class="h6 footer-contact">India</p>
-        <div style="display:flex;">
-          <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px"><h3   class="footer-head h5"> More Enquiry</h3>
-          </div>
-        <a href="tel:9970059488" class="h6 footer-contact-us">Phone: 0124 462 8747</a><br/>
-
-        <div style="display:flex">
-          <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3  class="footer-head h5"> Send Mail</h3>
-          </div>
-        <a href="mail to:vasundharashivankar179@gmail.com" class="h6 footer-contact-us">Email: customer.service@globetrek.com</a>
+    <h1 class="text-center ts-2 ">Our Mission</h1>
+    <section class="mission">
+      <div class="container">
+          <p>We are committed to providing unforgettable travel experiences that exceed our customers' expectations. Our mission is to inspire and enable people to explore the world by offering high-quality travel services and personalized attention.</p>
+          <p>At our agency, we believe in:</p>
+          <ul>
+              <li>Creating memorable journeys</li>
+              <li>Building long-lasting relationships with our customers</li>
+              <li>Promoting responsible and sustainable tourism</li>
+              <li>Embracing diversity and inclusivity</li>
+          </ul>
+          <p>Join us on our journey to make the world more accessible and connected through travel.</p>
       </div>
-
-      <div>
-        <h3 class="footer-head h5">Quick Links</h3>
-        <div style="display: block; align-items: center;">
-          <div><a href="#" class="h6 footer-quick-links">About Us</a></div>
-          <div><a href="#" class="h6 footer-quick-links">Destinations</a></div>
-          <div><a href="#" class="h6 footer-quick-links">Tour Packages</a></div>
-          <div><a href="#" class="h6 footer-quick-links">Article</a></div>
-        </div>
-      </div>
-
-      <div>
-      <h3 class="footer-head h5">Company</h3>
-      <div style="display: block; align-items: center;">
-        <div><a href="#" class="h6 footer-quick-links">Careers</a></div>
-        <div><a href="#" class="h6 footer-quick-links">Jobs</a></div>
-        <div><a href="#" class="h6 footer-quick-links">Partnerships</a></div>
-        <div><a href="#" class="h6 footer-quick-links">Affiliates</a></div>
-        <div><a href="#" class="h6 footer-quick-links">Terms and conditions</a></div>
-        <div><a href="#" class="h6 footer-quick-links">Privacy Policy</a></div>
-        <div><a href="#" class="h6 footer-quick-links">Cookie Statement</a></div>
-      </div>
-      </div>
+  </section>
+    <hr>
+    <div class="gallery-wrap">
+      <img src="../img/about_img/left-arrow (1).png" id="backBtn">
+      <div class="gallery">
+          <div>
+              <span class="img-title"><img class="slider-img" src="../img/about_img/teammember1.jpg"><b>Tour Guide</b></span>
+              <span class="img-title"><img class="slider-img"src="../img/about_img/teammember2.avif"><b>Tour Guide</b></span>
+              <span class="img-title"><img class="slider-img"src="../img/about_img/teammember3.webp"><b>Tour Guide</b></span>
+           
     
-      <div>
-        <h3 class="footer-head h5">Follow Us</h3>
-        <div style="display: flex; flex-direction: column;">
-          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png" alt="Facebook"  class="footer-icon">Facebook</a></div>
-          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png" alt="Twitter"  class="footer-icon">Twitter</a></div>
-          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png" alt="Instagram" class="footer-icon">Instagram</a></div>
-        </div>
-      <br/>
-        <div>
-        <h3 class="footer-head h5">Payment Partner</h3>
-        <div style="display: flex; justify-content: space-between;">
-          <div class="footer-icon-container"><img src="./../icons/visa.png"  class="footer-icon"></div>
-          <div class="footer-icon-container"><img src="./../icons/stripe.png"  class="footer-icon"></div>
-          <div class="footer-icon-container"><img src="./../icons/paypal.png"  class="footer-icon"></div>
-          <div class="footer-icon-container"><img src="./../icons/skrill.png"  class="footer-icon"></div>
-        </div>
+          </div>
+          <div>
+         
+            <span class="img-title"><img class="slider-img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaWE0699MFPk3OjxCEjcccwFRMAIrCaouUxLlaXVl1aA&s"><b>Tour Guide</b></span>
+            <span class="img-title"><img class="slider-img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUygEToTtsLWrLUHG14oubXlSA9ub30SmEOATXAtpQQ&s"><b>Tour Guide</b></span>
+          </div>
       </div>
-    </div>
-  </div>
+      <img src="../img/about_img/right-arrow.png" id="nextBtn">
+    </div><hr>
+      <div class="container text-center">      
+        <h1 class="text-center text-black text ts-2 ">User Reviews</h1>
+        
 
-    <hr style="border-top: 1px solid #ddd; margin: 40px 0;">
-    <p style="color: #666; text-align: center;">&copy; 2024 GlobeTrek. All rights reserved.</p>
-  </div>
-</footer>
-</div>
+        <div class="row review">
+          <div class="col-review">
+            <div class="d-flex">
+           <img src="../img/about_img/teammember2.avif"class="icon1">
+            <img src="../img/about_img/rating.png"class="rating-img p-0 m-0 d-block"></div>
+         <p class="my-3">
+          I thought we got a great price with TravelOnline and on top of that the booking process was so easy.  </p>
+          <b>--Santosh berad</b>
+          </div>
+          <div class=" col-review" >
+            <div class="d-flex">
+              <img src="data:image/jpeg;base64,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"class="icon1"> 
+
+            <img src="../img/about_img/rating.png"class="rating-img  p-0 m-0 d-block"></div>
+            <p class="my-3">It was very easy to book our holiday. Lisa was helpful when we needed to change some details.</p>
+            <b>--A.Deshmukh</b>
+          </div>
+          <div class="col-review">
+            <div class="d-flex">
+              <img src="https://pics.craiyon.com/2023-10-29/c7f542522dc647fdaf348df6ddedc5ad.webp"class="icon1">
+            <img src="../img/about_img/rating.png"class="rating-img  p-0 m-0 d-block"></div>
+            <p class="my-3">Nicole provided really good service and  her again for future holidays. It was nice person to ask questions to</p>
+            <b>--S.shrma</b>
+          
+          </div>
+        </div>
+        </div>
+
+      </div><hr>
+  
+      
+      <!-- Footer -->
+      <div class="container-footer">
+        <div class="newsletter p-2 justify-content-center">
+          <h3 style="text-align: center;margin-top:10px" class="roboto-condensed-uniquifier">Join the Newsletter</h3>
+          <p style="text-align: center;" class="roboto-condensed-uniquifier">To receive our best monthly deals</p>
+          <form id="emailForm" onsubmit="return isValidEmail()" style="display: flex;">
+              <label for="email" ></label>
+              <input type="email" id="emailInput" class="email-input" placeholder="vasundhara@gmail.com" >
+              <p class="error-message" id="errorMessage"></p>
+              <button type="submit" value="Submit" class="btn btn-warning roboto-condensed-uniquifier" style="height:45px; margin-top:10px;margin-left:-20px;margin-right:20px;">Submit</button>
+          </form>
+      </div>
+      <footer class="footer" >
+        <div class="footer-body">
+          <div class="footer-container">
+            <div class="footer-container2">
+              <div style="display:flex">
+              <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 class="footer-head h4 roboto-condensed-uniquifier"> Address</h3>
+              </div><br/>
+              <p  class="h5 footer-contact roboto-condensed-uniquifier">101, Serenity Road, Seminary Hills</p>
+              <p class="h5 footer-contact roboto-condensed-uniquifier">Nagpur, Maharashtra 440006</p>
+              <p class="h5 footer-contact roboto-condensed-uniquifier">India</p>
+              <div style="display:flex;">
+                <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px"><h3   class="footer-head h4 roboto-condensed-uniquifier"> More Enquiry</h3>
+                </div>
+              <a href="tel:9970059488" class="h5 footer-contact-us roboto-condensed-uniquifier">Phone: 0124 462 8747</a><br/>
+      
+              <div style="display:flex; margin-top:6px">
+                <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3  class="footer-head h4 roboto-condensed-uniquifier"> Send Mail</h3>
+                </div>
+              <a href="mail to:vasundharashivankar179@gmail.com" class="h5 footer-contact-us roboto-condensed-uniquifier">Email: customer.service@globetrek.com</a>
+            </div>
+      
+            <div>
+              <h3 class="footer-head h4 roboto-condensed-uniquifier">Quick Links</h3>
+              <div style="display: block; align-items: center;">
+                <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">About Us</a></div>
+                <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Destinations</a></div>
+                <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Tour Packages</a></div>
+                <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Article</a></div>
+              </div>
+            </div>
+      
+            <div>
+            <h3 class="footer-head h5 roboto-condensed-uniquifier">Company</h3>
+            <div style="display: block; align-items: center;">
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Careers</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Jobs</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Partnerships</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Affiliates</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Terms and conditions</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Privacy Policy</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Cookie Statement</a></div>
+            </div>
+            </div>
+          
+            <div>
+              <h3 class="footer-head h4 roboto-condensed-uniquifier">Follow Us</h3>
+              <div style="display: flex; flex-direction: column;">
+                <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png" alt="Facebook"  class="h5 footer-icon roboto-condensed-uniquifier">Facebook</a></div>
+                <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png" alt="Twitter"  class="h5 footer-icon roboto-condensed-uniquifier">Twitter</a></div>
+                <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png" alt="Instagram" class="h5 footer-icon roboto-condensed-uniquifier">Instagram</a></div>
+              </div>
+            <br/>
+              <div>
+              <h3 class="footer-head h4 roboto-condensed-uniquifier">Payment Partner</h3>
+              <div style="display: flex; justify-content: space-between;">
+                <div class="footer-icon-container"><img src="./../icons/visa.png"  class="footer-icon"></div>
+                <div class="footer-icon-container"><img src="./../icons/stripe.png"  class="footer-icon"></div>
+                <div class="footer-icon-container"><img src="./../icons/paypal.png"  class="footer-icon"></div>
+                <div class="footer-icon-container"><img src="./../icons/skrill.png"  class="footer-icon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+          <hr style="border-top: 1px solid #ddd; margin: 40px 0;">
+          <p style="color: #666; text-align: center;" class="roboto-condensed-uniquifier">&copy; 2024 GlobeTrek. All rights reserved.</p>
+        </div>
+      </footer>
+      </div>
+      
+     
+    
 <!-- Footer End -->
-
+<script>
+  let scrollContainer = document.querySelector(".gallery");
+ let backBtn = document.getElementById("backBtn");
+ let nextBtn = document.getElementById("nextBtn");
+ 
+ scrollContainer.addEventListener("wheel",(evt) =>{
+     evt.preventDefault();
+     scrollContainer.scrollLeft += evt.deltaY;
+     scrollContainer.style.scrollBehavior ="auto";
+ 
+ });
+ 
+ nextBtn.addEventListener("click",()=>{
+     scrollContainer.style.scrollBehavior ="smooth";
+     scrollContainer.scrollLeft += 900;
+ });
+ backBtn.addEventListener("click",()=>{
+     scrollContainer.style.scrollBehavior ="smooth";
+     scrollContainer.scrollLeft -= 900;
+ });
+ </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 

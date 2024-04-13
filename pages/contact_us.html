@@ -1,140 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
- 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Sansita&family=Satisfy&display=swap"
+    rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  
+  <script src="https://kit.fontawesome.com/6483843a61.js" crossorigin="anonymous"></script>
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  
-  <style>
-    /* Additional CSS for responsiveness */
-    iframe {
-      width: 100%;
-    }
-    .error-message {
-      font-size: 80%;
-    }
-    body {
-      background-color: #f8f9fa;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    h1 {
-      color: #343a40;
-      text-align: center;
-      margin-top: 50px;
-      font-size: 36px;
-    }
-    .contact-info, .contact-form {
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    }
-    .contact-info h3, .contact-form h3 {
-      color: #007bff;
-      margin-top: 0;
-      font-size: 24px;
-      text-align: center;
-    }
-    .contact-info p {
-      color: #6c757d;
-      margin-bottom: 10px;
-      font-size: 16px;
-    }
-    .embed-responsive {
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .btn-social {
-      margin-right: 10px;
-    }
-    .btn-social i {
-      font-size: 24px;
-    }
-    .social-link {
-      color: #fff;
-    }
-    .social-link:hover {
-      color: #fff;
-    }
-    .btn-primary {
-      background-color: #007bff;
-      border-color: #007bff;
-    }
-    .btn-primary:hover {
-      background-color: #0056b3;
-      border-color: #0056b3;
-    }
-    .btn-primary:focus {
-      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
-    }
-    .btn-danger {
-      background-color: #dc3545;
-      border-color: #dc3545;
-    }
-    .btn-danger:hover {
-      background-color: #c82333;
-      border-color: #bd2130;
-    }
-    .btn-danger:focus {
-      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
-    }
-    .text-center {
-      background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 101.02%), url(https://triprex.egenslab.com/wp-content/plugins/triprex-core//inc/theme-options/images/breadcrumb/inner-banner-bg.jpg);
-      background-size: cover;
-      color: #ffffff;
-      padding: 50px 0;
-      margin-bottom: 30px;
-    }
-    .container {
-      margin-top: 20px;
-    }
-    .col-md-6 {
-      margin-bottom: 20px;
-    }
-    .contact-info, .contact-form {
-      margin-bottom: 30px;
-    }
-    
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 28px;
-      }
-    }
-  </style>
+  <link href="./../css/common.css" rel="stylesheet">
+  <link href="./../css/contact_us.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6483843a61.js" crossorigin="anonymous"></script>
+ 
 </head>
+
 <body>
-  <div class="container">
-    <h1 class="text-center mb-4">Contact</h1>
-    <div class="row">
-      <div class="col-md-6 contact-info">
-        <h3>Contact Information</h3>
-        <p><i class="fa fa-phone"></i> <strong>Phone:</strong> +1-123-456-7890</p>
-        <p><i class="fa fa-envelope"></i> <strong>Email:</strong> example@example.com</p>
-        <p><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Main St, City, Country</p>
-        <h3>Find Us</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59990.72639537204!2d73.64474934863279!3d19.990862999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdded84e40c851b%3A0xee8b57ccb191f8ed!2sShree%20Ganesh%20Travel!5e0!3m2!1sen!2sin!4v1712671150971!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <img src="./../icons/main-logo.jpg" class="main-logo">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex; justify-content: space-between;">
+          <li class="nav-item">
+            <a  href="./../index.html" target="_blank" class="nav-link active nav-option fw-semibold h7" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item ">
+            <a href="./about_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="./tour_and_packages.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">TOUR & PACKAGES</a>
+          </li>
+          <li class="nav-item">
+            <a href="./special_offers.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">SPECIAL OFFERS</a>
+          </li>
+        <li class="nav-item">
+          <a href="./booking_and_reservation.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" >BOOKING & RESERVATION</a>
+        </li>
+        <li class="nav-item">
+            <a href="./blog_and_travel_tips.html" target="_blank" class="nav-link disabled nav-option fw-semibold h7" aria-disabled="true" >BLOG & TRAVEL TIPS</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      
       </div>
-      <div class="col-md-6 contact-form">
-        <h3>Contact Form</h3>
-        <form id="contactForm">
+       <a href="./sign_up.html" target="_blank" style="text-decoration: none;"><i class="fa-solid fa-user-plus fs-3" style="cursor:pointer; text-decoration: none" ></i></a>
+    </div>
+  </nav>
+  
+
+  <div class="breadcrumb-section">
+    <h1 class="title1">Contact</h1>
+  </div>
+  <div class="container">
+    <div class="column-2">
+      <div class="info-item">
+        <h3 class="text-center ccc hhh">Contact Information</h3>
+        <br />
+        <p>
+          <i class="fa fa-phone"></i> <strong>Phone:</strong> +1-123-456-7890
+        </p>
+        <br />
+        <p>
+          <i class="fa fa-envelope"></i>
+          <strong>Email:</strong> example@example.com
+        </p>
+        <br />
+        <p>
+          <i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Main
+          St, City, Country
+        </p>
+      </div>
+    </div>
+    <div class="column-2">
+      <div class="contact-form">
+        <form class="form-inner" id="contactForm">
+          <h3 class="hhh">Reach Us</h3>
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name">
+            <input type="text" class="form-control" id="name" />
             <small id="nameError" class="text-danger error-message"></small>
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" class="form-control" id="email">
+            <input type="email" class="form-control" id="email" />
             <small id="emailError" class="text-danger error-message"></small>
           </div>
           <div class="form-group">
@@ -142,43 +100,148 @@
             <textarea class="form-control" id="message" rows="5"></textarea>
             <small id="messageError" class="text-danger error-message"></small>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="primary-btn1" value="Submit">
+            Submit
+          </button>
         </form>
       </div>
     </div>
   </div>
+  <section class="map-main-img">
+    <h3 class="hhh">Location</h3>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7497.965546695711!2d73.78212899357908!3d20.00923770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddebac5995b7bd%3A0xd787944500e2a554!2sGS%20Tours%20%26%20Travels!5e0!3m2!1sen!2sin!4v1712906299861!5m2!1sen!2sin"
+      height="450" style="border: 5px solid #ccc" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade" class="img-map"></iframe>
+  </section>
   
-  <script>
-    document.getElementById("contactForm").addEventListener("submit", function(event) {
-      event.preventDefault();
-      var name = document.getElementById("name").value;
-      var email = document.getElementById("email").value;
-      var message = document.getElementById("message").value;
-      
-      var nameError = document.getElementById("nameError");
-      var emailError = document.getElementById("emailError");
-      var messageError = document.getElementById("messageError");
-      
-      nameError.textContent = "";
-      emailError.textContent = "";
-      messageError.textContent = "";
+    <div class="newsletter p-2 justify-content-center">
+      <h3 style="text-align: center;margin-top:10px" class="roboto-condensed-uniquifier">Join the Newsletter</h3>
+      <p style="text-align: center;" class="roboto-condensed-uniquifier">To receive our best monthly deals</p>
+      <form id="emailForm" onsubmit="return isValidEmail()" style="display: flex;">
+          <label for="email" ></label>
+          <input type="email" id="emailInput" class="email-input" placeholder="vasundhara@gmail.com" >
+          <p class="error-message" id="errorMessage"></p>
+          <button type="submit" value="Submit" class="btn btn-warning roboto-condensed-uniquifier" style="height:45px; margin-top:10px;margin-left:-20px;margin-right:20px;">Submit</button>
+      </form>
+  </div>
+  
+    <footer class="footer">
+      <div class="footer-body">
+        <div class="footer-container">
+          <div class="footer-container2">
+            <div style="display:flex">
+              <img src="./../icons/location.png" style="width: 35px; height: auto;">
+              <h3 class="footer-head h4 roboto-condensed-uniquifier"> Address</h3>
+            </div><br />
+            <p class="h5 footer-contact roboto-condensed-uniquifier">101, Serenity Road, Seminary Hills</p>
+            <p class="h5 footer-contact roboto-condensed-uniquifier">Nagpur, Maharashtra 440006</p>
+            <p class="h5 footer-contact roboto-condensed-uniquifier">India</p>
+            <div style="display:flex;">
+              <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px">
+              <h3 class="footer-head h4 roboto-condensed-uniquifier"> More Enquiry</h3>
+            </div>
+            <a href="tel:9970059488" class="h5 footer-contact-us roboto-condensed-uniquifier">Phone: 0124 462
+              8747</a><br />
 
-      if (name === "") {
-        nameError.textContent = "Please enter your name.";
-        return;
-      }
-      if (email === "") {
-        emailError.textContent = "Please enter your email.";
-        return;
-      }
-      if (message === "") {
-        messageError.textContent = "Please enter your message.";
-        return;
-      }
-      
-      // If all fields are filled, submit the form
-      this.submit();
-    });
+            <div style="display:flex; margin-top:6px">
+              <img src="./../icons/send.png" style="width: 25px; height: 25px;">
+              <h3 class="footer-head h4 roboto-condensed-uniquifier"> Send Mail</h3>
+            </div>
+            <a href="mail to:vasundharashivankar179@gmail.com"
+              class="h5 footer-contact-us roboto-condensed-uniquifier">Email: customer.service@globetrek.com</a>
+          </div>
+
+          <div>
+            <h3 class="footer-head h4 roboto-condensed-uniquifier">Quick Links</h3>
+            <div style="display: block; align-items: center;">
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">About Us</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Destinations</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Tour Packages</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Article</a></div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="footer-head h5 roboto-condensed-uniquifier">Company</h3>
+            <div style="display: block; align-items: center;">
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Careers</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Jobs</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Partnerships</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Affiliates</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Terms and conditions</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Privacy Policy</a></div>
+              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Cookie Statement</a></div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="footer-head h4 roboto-condensed-uniquifier">Follow Us</h3>
+            <div style="display: flex; flex-direction: column;">
+              <div class="footer-icon-container"><a href="#"
+                  style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png"
+                    alt="Facebook" class="h5 footer-icon roboto-condensed-uniquifier">Facebook</a></div>
+              <div class="footer-icon-container"><a href="#"
+                  style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png"
+                    alt="Twitter" class="h5 footer-icon roboto-condensed-uniquifier">Twitter</a></div>
+              <div class="footer-icon-container"><a href="#"
+                  style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png"
+                    alt="Instagram" class="h5 footer-icon roboto-condensed-uniquifier">Instagram</a></div>
+            </div>
+            <br />
+            <div>
+              <h3 class="footer-head h4 roboto-condensed-uniquifier">Payment Partner</h3>
+              <div style="display: flex; justify-content: space-between;">
+                <div class="footer-icon-container"><img src="./../icons/visa.png" class="footer-icon"></div>
+                <div class="footer-icon-container"><img src="./../icons/stripe.png" class="footer-icon"></div>
+                <div class="footer-icon-container"><img src="./../icons/paypal.png" class="footer-icon"></div>
+                <div class="footer-icon-container"><img src="./../icons/skrill.png" class="footer-icon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr style="border-top: 1px solid #ddd; margin: 40px 0;">
+        <p style="color: #666; text-align: center;" class="roboto-condensed-uniquifier">&copy; 2024 GlobeTrek. All
+          rights reserved.</p>
+      </div>
+    </footer>
+  
+
+  <script>
+    document
+      .getElementById("contactForm")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+
+        var nameError = document.getElementById("nameError");
+        var emailError = document.getElementById("emailError");
+        var messageError = document.getElementById("messageError");
+
+        nameError.textContent = "";
+        emailError.textContent = "";
+        messageError.textContent = "";
+
+        if (name === "") {
+          nameError.textContent = "Please enter your name.";
+          return;
+        }
+        if (email === "") {
+          emailError.textContent = "Please enter your email.";
+          return;
+        }
+        if (message === "") {
+          messageError.textContent = "Please enter your message.";
+          return;
+        }
+
+        // If all fields are filled, submit the form
+        this.submit();
+      });
   </script>
 </body>
+
 </html>
