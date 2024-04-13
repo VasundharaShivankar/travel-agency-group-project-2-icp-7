@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  backdrop-filter: blur(10px);
+  background-image: url(./../img/contact_img/contact.jpg);
 }
 
 .navbar {
@@ -82,7 +82,7 @@ body {
   box-shadow: 0px 4px 8px 0px  rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
   padding: 20px;
-  
+  backdrop-filter: blur(10px);
   box-sizing: border-box;
 }
 
@@ -156,9 +156,7 @@ body {
   margin-bottom: 5px;
 }
 .breadcrumb-section{
-  background-image: url("./../img/contact_img/contact-bg.jpg");
-  height: 400px;
-  width: auto;
+  height: auto;
   display: flex;
   background-position: center;
   background-repeat: no-repeat;
