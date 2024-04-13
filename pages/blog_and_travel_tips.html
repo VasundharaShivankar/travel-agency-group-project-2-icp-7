@@ -59,8 +59,8 @@
           <section id="blog-posts">
             <h2 class=" heading text-warning roboto-condensed-uniquifier mt-3  text-center">Latest Blog Posts</h2>
             <div class="post-container grid gap-3">
-              <div class="post me-1">
-                <img src="./../img/blog_img/activity8.jpg" id="image1" class="post-img">
+              <div class="post card me-1">
+                <img src="./../img/blog_img/activity8.jpg" id="image1" class="post-img  mx-auto">
                 <div class="post-review">
                   <div class="like-container">  
                     <button id="dislike-btn" class="dislike-btn btn-like" onclick="decrementLikes()">
@@ -75,8 +75,8 @@
                   </div>
               
                 </div>
-                  <h3 class=" h2  roboto-condensed-uniquifier ms-1 text-warning">A Seaside Reset in Laguna Beach</h3>
-                  <p class=" h5  roboto-condensed-uniquifier ms-1" >From the iconic to the unexpected, the city of San Francisco never ceases to surprise. Kick-start your effortlessly delivered Northern California holiday in the cosmopolitan hills of The City. Join your Travel Director and fellow travellers for a Welcome Reception at your hotel.</p>
+                  <h3 class=" h2  roboto-condensed-uniquifier ms-1 text-warning  mx-auto">A Seaside Reset in Laguna Beach</h3>
+                  <p class=" h5  roboto-condensed-uniquifier ms-1  mx-auto" >From the iconic to the unexpected, the city of San Francisco never ceases to surprise. Kick-start your effortlessly delivered Northern California holiday in the cosmopolitan hills of The City. Join your Travel Director and fellow travellers for a Welcome Reception at your hotel.</p>
                   <p class=" h5  roboto-condensed-uniquifier ms-1" id="content1">As the day draws to a close, relish the opportunity to wander through the city's eclectic neighborhoods, from the bohemian charm of Haight-Ashbury to the trendy boutiques of Union Square, San Francisco offers a tapestry of neighborhoods waiting to be explored.</p>
                   <button id="loadMoreBtn1" onclick="loadMore1()" class="loadMoreBtn btn btn-warning">Load More</button>
                   <div>
@@ -89,8 +89,8 @@
                   <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center loadMoreBtn" style="margin:10px 5px;">Post Comment</button>
                   </div>
               </div>
-              <div class="post ms-1">
-                <img src="./../img/blog_img/hotel1.jpg" id="image2" class="post-img">
+              <div class="post card ms-1">
+                <img src="./../img/blog_img/hotel1.jpg" id="image2" class="post-img  mx-auto">
                 <div class="post-review">
                   <div class="like-container">  
                     <button id="dislike-btn" class="dislike-btn btn-like" onclick="decrementLikes()">
@@ -120,8 +120,8 @@
                   <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center loadMoreBtn" style="margin:10px 5px;">Post Comment</button>
                   </div>
               </div>
-              <div class="post  me-1">
-                <img src="./../img/blog_img/hotel2.avif" id="image3" class="post-img">
+              <div class="post card me-1">
+                <img src="./../img/blog_img/hotel2.avif" id="image3" class="post-img  mx-auto">
                 <div class="post-review">
                   <div class="like-container">  
                     <button id="dislike-btn" class="dislike-btn btn-like" onclick="decrementLikes()">
@@ -151,8 +151,8 @@
                   <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center loadMoreBtn" style="margin:10px 5px;">Post Comment</button>
                   </div>
               </div>
-              <div class="post  ms-1">
-                <img src="./../img/blog_img/hotel6.jpg" id="image4" class="post-img">
+              <div class="post card ms-1">
+                <img src="./../img/blog_img/hotel6.jpg" id="image4" class="post-img  mx-auto">
                 <div class="post-review">
                   <div class="like-container">  
                     <button id="dislike-btn" class="dislike-btn btn-like" onclick="decrementLikes()">
@@ -181,7 +181,7 @@
                   <button class="d-block btn btn-warning h5  roboto-condensed-uniquifier justify-content-center loadMoreBtn" style="margin:10px 5px;">Post Comment</button>
                   </div>
               </div>
-              <div class="post  me-1">
+              <div class="post card me-1">
                 <img src="./../img/blog_img/image3.avif" id="image5" class="post-img">
                 <div class="post-review">
                   <div class="like-container">  
@@ -219,15 +219,13 @@
       </div>
 
 <!-- Footer -->
-<div class="container-footer">
-  <div class="newsletter p-2 justify-content-center">
-    <h3 style="text-align: center;margin-top:10px" class="roboto-condensed-uniquifier">Join the Newsletter</h3>
-    <p style="text-align: center;" class="roboto-condensed-uniquifier">To receive our best monthly deals</p>
-    <form id="emailForm" onsubmit="return isValidEmail()" style="display: flex;">
-        <label for="email" ></label>
-        <input type="email" id="emailInput" class="email-input" placeholder="vasundhara@gmail.com" >
-        <p class="error-message" id="errorMessage"></p>
-        <button type="submit" value="Submit" class="btn btn-warning roboto-condensed-uniquifier" style="height:45px; margin-top:10px;margin-left:-20px;margin-right:20px;">Submit</button>
+<div class="container-footer mb-2">
+  <div class="newsletter p-2 justify-content-center ">
+    <h3 class="text-center roboto-condensed-uniquifier mt-2">Join the Newsletter</h3>
+    <p class="text-center roboto-condensed-uniquifier" style="color:#302f2f">To receive our best monthly deals</p>
+    <form id="emailForm" onsubmit="return isValidEmail()" class="d-flex">
+        <input type="email" id="emailInput" class="form-control mr-2 mx-4 mb-3" placeholder="Enter your email">
+        <button type="submit" class="btn btn-warning ms-3 mb-3 me-4" style="height:45px;">Submit</button>
     </form>
 </div>
 <footer class="footer" >
