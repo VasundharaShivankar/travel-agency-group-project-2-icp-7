@@ -23,15 +23,14 @@
 
   /* footer code
 
-<div class="container-footer">
-  <div class="newsletter p-2 justify-content-center">
-    <h3 style="text-align: center;margin-top:10px" class="roboto-condensed-uniquifier">Join the Newsletter</h3>
-    <p style="text-align: center;" class="roboto-condensed-uniquifier">To receive our best monthly deals</p>
-    <form id="emailForm" onsubmit="return isValidEmail()" style="display: flex;">
-        <label for="email" ></label>
-        <input type="email" id="emailInput" class="email-input" placeholder="vasundhara@gmail.com" >
-        <p class="error-message" id="errorMessage"></p>
-        <button type="submit" value="Submit" class="btn btn-warning roboto-condensed-uniquifier" style="height:45px; margin-top:10px;margin-left:-20px;margin-right:20px;">Submit</button>
+<!-- Footer -->
+<div class="container-footer mb-2">
+  <div class="newsletter p-2 justify-content-center ">
+    <h3 class="text-center roboto-condensed-uniquifier mt-2">Join the Newsletter</h3>
+    <p class="text-center roboto-condensed-uniquifier" style="color:#302f2f">To receive our best monthly deals</p>
+    <form id="emailForm" onsubmit="return isValidEmail()" class="d-flex">
+        <input type="email" id="emailInput" class="form-control mr-2 mx-4 mb-3" placeholder="Enter your email">
+        <button type="submit" class="btn btn-warning ms-3 mb-3 me-4" style="height:45px;">Submit</button>
     </form>
 </div>
 <footer class="footer" >
@@ -66,7 +65,7 @@
       </div>
 
       <div>
-      <h3 class="footer-head h5 roboto-condensed-uniquifier">Company</h3>
+      <h3 class="footer-head h4 roboto-condensed-uniquifier">Company</h3>
       <div style="display: block; align-items: center;">
         <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Careers</a></div>
         <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Jobs</a></div>
@@ -103,7 +102,7 @@
   </div>
 </footer>
 </div>
-
+<!-- Footer End -->
 */
 
 
