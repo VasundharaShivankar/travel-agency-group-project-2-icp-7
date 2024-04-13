@@ -238,9 +238,6 @@ navbar html:
               <a href="./about_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a href="./destinations.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" >DESTINATIONS</a>
-            </li>
-            <li class="nav-item">
               <a href="./tour_and_packages.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">TOUR & PACKAGES</a>
             </li>
             <li class="nav-item">
@@ -258,6 +255,7 @@ navbar html:
           </ul>
         
         </div>
+         <a href="./sign_up.html" target="_blank" style="text-decoration: none;"><i class="fa-solid fa-user-plus fs-3" style="cursor:pointer; text-decoration: none" ></i></a>
       </div>
     </nav>
 
@@ -265,6 +263,47 @@ navbar html:
 
     /*
     navbar css:
+    .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+
+.navbar-toggler {
+  color: #000000; 
+}
+
+
+.navbar-collapse {
+  display: none; 
+}
+
+
+@media (max-width: 768px) {
+  
+  .navbar-collapse {
+    display: block;
+  }
+
+  
+  .main-logo {
+    display: none;
+  }
+
+  
+  .navbar-nav {
+    text-align: center;
+  }
+
+ 
+  .nav-item {
+    margin-bottom: 10px; 
+  }
+}
+
     .navbar{
   width:100%;
   padding:20px;
