@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .container-footer{
   align-items: center;
 }
@@ -129,6 +132,12 @@ height: auto;
   display: flex;
   overflow-x: scroll;
 }
+.roboto-condensed-uniquifier{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 .gallery div {
   width: 100%;
   display: grid;
@@ -142,8 +151,7 @@ height: auto;
   
 }
 .slider-img{
-  height:350px;
-  width: 50px;
+  height:250px;
   border-radius: 50%;
 }
 .img-title{
@@ -268,7 +276,6 @@ height: auto;
 
 .col-review{
   font-family: "Roboto Condensed", sans-serif;
-
   border-radius: 5px 50px 5px 50px;
   display: block;
   margin: 30px auto;
