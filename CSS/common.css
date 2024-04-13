@@ -263,6 +263,47 @@ navbar html:
 
     /*
     navbar css:
+    .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+
+.navbar-toggler {
+  color: #000000; 
+}
+
+
+.navbar-collapse {
+  display: none; 
+}
+
+
+@media (max-width: 768px) {
+  
+  .navbar-collapse {
+    display: block;
+  }
+
+  
+  .main-logo {
+    display: none;
+  }
+
+  
+  .navbar-nav {
+    text-align: center;
+  }
+
+ 
+  .nav-item {
+    margin-bottom: 10px; 
+  }
+}
+
     .navbar{
   width:100%;
   padding:20px;
