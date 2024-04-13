@@ -226,7 +226,6 @@ object-fit: cover;
     }
     .australia .image-effect{
       width: 80%;
-     
       flex-wrap:wrap ;
       display: flex;
       
