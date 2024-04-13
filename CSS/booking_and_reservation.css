@@ -1,19 +1,33 @@
-
-.booking-img {
-    height: 1000px !important;
+.bg-train{
+    height: 1150px !important;
     width: 100% !important;
-    margin-top:100px;
-    background: url('./../img/booking_img/frontbook.img');
-    opacity: 95px;
+    background: url('./../img/booking_img/bg-trainimg.jpg');
+    opacity: 2px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
 }
+.bg-plane{
+    height: 1150px !important;
+    width: 100% !important;
+    background: url('./../img/booking_img/bg-plane2-img.jpg');
+    opacity: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.border-head{
+    border-radius: 25px;
+}
+
 .form {
     margin-top: 100px;
     }
-    label {
+    label{
             
         display: block;
         margin-bottom: 5px;
@@ -26,18 +40,36 @@
         margin-bottom: 15px;
         border: 1px solid #ccc;
         border-radius: 10px;
+        background-color: white;
+    
 
     }
     input[type="text"],
     input[type="date"],
-    input[type="number"],
+    input[type="#"],
     input[type="submit"] 
     {
             width: 30%;
             padding: 25px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
-            border-radius: 10px;
+            border-radius: 15px;
+            background-color: white;
+            
+    }
+    input[type="submit"]:hover {
+        background-color: #ffc107;
+    }
+    .travelers-inc-dec{
+            margin-left: 35%;
+            width: 30%;
+            padding: 25px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            justify-content: center;
+            background-color: white;
+            
     }
     
          .menu{
@@ -50,3 +82,25 @@
          .menu:hover {
             background-color: #555;
              }
+        .flights{
+            background-color: #d0e5e9;
+        }
+        .btn-quantity{
+            height: 35px;
+            justify-content: center;
+
+        }
+        .already{
+            font-size: 25px;
+           
+            margin: auto 10px;
+            cursor: pointer;
+        }
+        .container-train{
+            display: block;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 5px;
+       
+        }
+        
