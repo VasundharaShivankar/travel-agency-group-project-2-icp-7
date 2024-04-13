@@ -12,9 +12,50 @@
 
 </head>
 <body class="australia">
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <img src="./../icons/main-logo.jpg" class="main-logo">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex; justify-content: space-between;">
+          <li class="nav-item">
+            <a  href="./../index.html" target="_blank" class="nav-link active nav-option fw-semibold h7" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item ">
+            <a href="./about_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="./destinations.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" >DESTINATIONS</a>
+          </li>
+          <li class="nav-item">
+            <a href="./tour_and_packages.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">TOUR & PACKAGES</a>
+          </li>
+          <li class="nav-item">
+            <a href="./special_offers.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">SPECIAL OFFERS</a>
+          </li>
+        <li class="nav-item">
+          <a href="./booking_and_reservation.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" >BOOKING & RESERVATION</a>
+        </li>
+        <li class="nav-item">
+            <a href="./blog_and_travel_tips.html" target="_blank" class="nav-link disabled nav-option fw-semibold h7" aria-disabled="true" >BLOG & TRAVEL TIPS</a>
+          </li>
+          <li class="nav-item">
+            <a href="./special_offers.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+  <!-- heading --> 
+   <!-- <h1 class="py-3 fs-1 fw-bold roboto-condensed-uniquifier text-center">AUSTRALIA</h1> -->
 
         <!-- carousel slider  -->
-  <section class="bg-info" >
+  <section class="bg-info sliderbg" >
     
     <div id="carouselExampleDark" class="carousel carousel-dark slide applycss " data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -26,12 +67,12 @@
         <div class="carousel-item active" data-bs-interval="10000">
           <img src="./../img/packages_img/australia/adelaide1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-light fs-2 fw-bold">Beauties Of Adelaide</h5>
+            <h5 class="text-light fs-2 fw-bold">Beauties Of Adelaid Australia</h5>
             
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="./../img/packages_img/australia/reef1.jpg" class="d-block w-100" alt="...">
+          <img src="./../img/packages_img/australia/img2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="text-light fs-2 fw-bold" >Great Barrier Reef</h5>
             
@@ -59,9 +100,10 @@
   </section>
 
   <!-- cards section -->
+  <h1 class="py-3 fs-1 fw-bold roboto-condensed-uniquifier text-center">AUSTRALIA</h1>
 
   <section>
-    <h2 class="text-warning fs-2 text-center">Best Offer Packages</h2>
+    <h2 class="text-warning fs-1 text-center pt-4">Best Offer Packages</h2>
     <!-- first card -->
     <div class="row image-effect border rounded d-flex ">
       <div class="col-3 containerof">
@@ -112,7 +154,7 @@
 
     <div class="row image-effect border rounded d-flex ">
       <div class="col-3 containerof">
-        <img src="./../img/packages_img/australia/adelaide.jpg" class="my-3 rounded card-img " alt="...">
+        <img src="./../img/packages_img/australia/reef.jpg" class="my-3 rounded card-img " alt="...">
         <div class="card-img-overlay text-wrap overlay">
           
           <p class="card-text text  "> 
@@ -129,14 +171,14 @@
   
             </div>
             <p class="card-text  border-bottom d-flex justify-content-between align-items-center">
-              <ul>
-                <li>Adelaide Botanic Garden</li>
-                <li>Glenelg Beach</li>
-                <li>Barossa Valley Wine Region</li>
-                <li>Kangaroo Island</li>
-                <li>Flinders Ranges</li>
-                <li>Fleurieu Peninsula</li>
-              </ul>
+              
+                Adelaide Botanic Garden
+                Glenelg Beach
+                Barossa Valley Wine Region
+                Kangaroo Island
+                Flinders Ranges
+                Fleurieu Peninsula
+              
               </p>
             
           </div>
@@ -308,5 +350,89 @@
       
       
   </section>
+
+  
+      <!-- Footer -->
+<div class="container-footer">
+  <div class="newsletter p-2 justify-content-center">
+    <h3 style="text-align: center;margin-top:10px" class="roboto-condensed-uniquifier">Join the Newsletter</h3>
+    <p style="text-align: center;" class="roboto-condensed-uniquifier">To receive our best monthly deals</p>
+    <form id="emailForm" onsubmit="return isValidEmail()" style="display: flex;">
+        <label for="email" ></label>
+        <input type="email" id="emailInput" class="email-input" placeholder="vasundhara@gmail.com" >
+        <p class="error-message" id="errorMessage"></p>
+        <button type="submit" value="Submit" class="fs-5  btn btn-warning roboto-condensed-uniquifier news-btn text-light" >Submit</button>
+    </form>
+</div>
+<footer class="footer" >
+  <div class="footer-body">
+    <div class="footer-container">
+      <div class="footer-container2">
+        <div style="display:flex">
+        <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 class="footer-head h4 roboto-condensed-uniquifier"> Address</h3>
+        </div><br/>
+        <p  class="h5 footer-contact roboto-condensed-uniquifier">101, Serenity Road, Seminary Hills</p>
+        <p class="h5 footer-contact roboto-condensed-uniquifier">Nagpur, Maharashtra 440006</p>
+        <p class="h5 footer-contact roboto-condensed-uniquifier">India</p>
+        <div style="display:flex;">
+          <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px"><h3   class="footer-head h4 roboto-condensed-uniquifier"> More Enquiry</h3>
+          </div>
+        <a href="tel:9970059488" class="h5 footer-contact-us roboto-condensed-uniquifier">Phone: 0124 462 8747</a><br/>
+
+        <div style="display:flex; margin-top:6px">
+          <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3  class="footer-head h4 roboto-condensed-uniquifier"> Send Mail</h3>
+          </div>
+        <a href="mail to:vasundharashivankar179@gmail.com" class="h5 footer-contact-us roboto-condensed-uniquifier">Email: customer.service@globetrek.com</a>
+      </div>
+
+      <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Quick Links</h3>
+        <div style="display: block; align-items: center;">
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">About Us</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Destinations</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Tour Packages</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Article</a></div>
+        </div>
+      </div>
+
+      <div>
+      <h3 class="footer-head h5 roboto-condensed-uniquifier">Company</h3>
+      <div style="display: block; align-items: center;">
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Careers</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Jobs</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Partnerships</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Affiliates</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Terms and conditions</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Privacy Policy</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Cookie Statement</a></div>
+      </div>
+      </div>
+    
+      <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Follow Us</h3>
+        <div style="display: flex; flex-direction: column;">
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png" alt="Facebook"  class="h5 footer-icon roboto-condensed-uniquifier">Facebook</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png" alt="Twitter"  class="h5 footer-icon roboto-condensed-uniquifier">Twitter</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png" alt="Instagram" class="h5 footer-icon roboto-condensed-uniquifier">Instagram</a></div>
+        </div>
+      <br/>
+        <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Payment Partner</h3>
+        <div style="display: flex; justify-content: space-between;">
+          <div class="footer-icon-container"><img src="./../icons/visa.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/stripe.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/paypal.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/skrill.png"  class="footer-icon"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <hr style="border-top: 1px solid #ddd; margin: 40px 0;">
+    <p style="color: #666; text-align: center;" class="roboto-condensed-uniquifier">&copy; 2024 GlobeTrek. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+<!-- Footer End -->
 </body>
 </html>

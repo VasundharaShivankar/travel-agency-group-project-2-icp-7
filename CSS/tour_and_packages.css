@@ -2,13 +2,46 @@
     padding: 0;
     margin: 0;
 }
+/*nav bar*/
+.roboto-condensed-uniquifier{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.navbar{
+  width:100%;
+  padding:20px;
+  }
+  .nav-option{
+      padding: 5px;
+      
+  }
+  .nav-item{
+    margin:0 3px;
+  }
+.main-logo{
+  margin-right:100px;
+  height:70px;
+  width: 70px;
+}
+
 /*carousel css*/
+.sliderbg{
+  background-image: url(./../img/packages_img/australia/reef1.jpg);
+  backdrop-filter: blur(10px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
 
 .applycss{
   width: 100vh;
-  height: ;
   
-  margin:20px auto;
+  
+  margin:0 auto;
+
 
 }
 .carousel-caption{
@@ -129,12 +162,18 @@ h5 img{
 /*  packages cards  */
 
 .image-effect:hover{
-  box-shadow: 0 0 10px 2px grey;
+  box-shadow: 0 0 3px 1px grey;
+  transition:1s;
+  1sec-webkit-transition: 1sec;
+  -moz-transition:1s;
+  -ms-transition:1s;
+  -o-transition:1s;
+  -webkit-transition:1s;
 }
 
 
 .australia .image-effect{
-  height: ;
+  
   width: 80%;
   margin: 30px auto;
 
@@ -258,4 +297,123 @@ object-fit: cover;
 .icons i:hover{
   background-color: cadetblue;
 }
-  
+/* end of the packages card*/  
+
+/* Footer styling*/
+/*Newsletter in footer*/
+.container-footer{
+  align-items: center;
+}
+.news-btn{
+  width: 130px;
+}
+
+.newsletter {
+  position: relative;
+  align-items: center;
+  width:600px;
+  margin:20px auto;
+background-color: #d0e5e9;
+padding: 20px;
+border-radius:20px;
+}
+.newsletter h3 {
+color: #333;
+margin-bottom: 10px;
+}
+.newsletter p {
+
+color: #666;
+margin-bottom: 10px;
+
+}
+.newsletter input[type="email"] {
+padding: 10px;
+width: 70%;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.newsletter input[type="submit"] {
+padding: 10px 20px;
+background-color: #49e4ff;
+color: black;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.newsletter input[type="submit"]:hover {
+background-color: #90eeff;
+}
+.email-input {
+width: 300px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin:10px auto;
+margin-bottom: 10px;
+}
+.error-message {
+color: red;
+}
+/*End of news letter*/
+
+.footer {
+  background-color: black;
+  padding: 40px;
+  color: white; 
+}
+.footer-body{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-head h5{
+  color: white; 
+  margin-bottom: 20px;
+}
+.footer-container{
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: flex-start; 
+  justify-content: space-between;
+}
+.footer-head h5{
+  width: 25px; 
+  height: 25px;
+  color: #333; 
+  margin-top:5px;
+  margin-bottom: 20px; 
+}
+.footer-container2{
+  display:block;
+  justify-content: space-between;
+}
+.footer-contact-us, .footer-contact {
+color: #666;
+text-decoration: none;
+}
+
+.footer-contact-us:hover {
+color: rgb(255, 187, 0);
+}
+.footer-quick-links{
+color: rgb(125, 124, 124);
+margin-bottom: 5px;
+text-decoration:none;
+}
+.footer-quick-links:hover{
+color: #4c29cc;
+margin-bottom: 5px;
+}
+.footer-icon-container{
+margin-bottom: 10px;
+text-decoration: none;
+color: rgb(125, 124, 124);
+}
+.footer-icon{
+margin-right:3px;
+width: 30px;
+height: auto;
+}
+/* Footer End */
+
