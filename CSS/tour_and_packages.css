@@ -188,8 +188,8 @@ h5 img{
 
     
 }
-.australia .image-effect .img-card{
-  padding: 10px;
+.australia .image-effect .card-img{
+  height: auto;
 object-fit: cover;
 
 }
