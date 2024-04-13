@@ -17,6 +17,17 @@ likeBtn.addEventListener('click', incrementLikes);
 dislikeBtn.addEventListener('click', decrementLikes);
 
 
+image.addEventListener('mouseenter', function() {
+  const image1 = document.getElementById('image1');
+    image1.style.filter = 'brightness(120%)'; 
+});
+
+image.addEventListener('mouseleave', function() {
+  const image1 = document.getElementById('image1');
+    image1.style.filter = '';
+});
+
+
 function isValidEmail() { 
     if (emailPattern.test(emailInput)) {
         var emailInput = document.getElementById("emailInput").value.trim();
@@ -31,3 +42,4 @@ function isValidEmail() {
         return false;
     }
 }
+
