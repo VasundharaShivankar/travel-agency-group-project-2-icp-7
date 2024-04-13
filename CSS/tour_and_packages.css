@@ -11,7 +11,7 @@
 }
 .navbar{
   width:100%;
-  padding:20px;
+  padding:;
   font-size: 14px;
   }
   .nav-option{
@@ -38,9 +38,7 @@
 }
 
 .applycss{
-  width: 100vh;
-  
-  
+  width: 58%;
   margin:0 auto;
 
 
@@ -185,7 +183,7 @@ h5 img{
 
 .australia .image-effect{
   
-  width: 80%;
+  width: 95%;
   margin: 30px auto;
 
     
