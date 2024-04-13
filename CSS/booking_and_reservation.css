@@ -1,10 +1,33 @@
-.bg{
-    background-color: #d0e5e9;
+.bg-train{
+    height: 1150px !important;
+    width: 100% !important;
+    background: url('./../img/booking_img/bg-trainimg.jpg');
+    opacity: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
+.bg-plane{
+    height: 1150px !important;
+    width: 100% !important;
+    background: url('./../img/booking_img/bg-plane2-img.jpg');
+    opacity: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.border-head{
+    border-radius: 25px;
+}
+
 .form {
     margin-top: 100px;
     }
-    label {
+    label{
             
         display: block;
         margin-bottom: 5px;
@@ -17,6 +40,8 @@
         margin-bottom: 15px;
         border: 1px solid #ccc;
         border-radius: 10px;
+        background-color: white;
+    
 
     }
     input[type="text"],
@@ -29,7 +54,11 @@
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 15px;
+            background-color: white;
             
+    }
+    input[type="submit"]:hover {
+        background-color: #ffc107;
     }
     .travelers-inc-dec{
             margin-left: 35%;
@@ -39,6 +68,7 @@
             border: 1px solid #ccc;
             border-radius: 15px;
             justify-content: center;
+            background-color: white;
             
     }
     
@@ -65,5 +95,12 @@
            
             margin: auto 10px;
             cursor: pointer;
+        }
+        .container-train{
+            display: block;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 5px;
+       
         }
         
