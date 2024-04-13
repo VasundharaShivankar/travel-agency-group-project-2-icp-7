@@ -107,6 +107,22 @@ width: 30px;
 height: auto;
 }
 
+.navbar{
+  width:100%;
+  padding:20px;
+  }
+  .nav-option{
+      padding: 5px;
+      font-family: ;
+  }
+  .nav-item{
+    margin:0 3px;
+  }
+.main-logo{
+  margin-right:100px;
+  height:70px;
+  width: 70px;
+}
 
 
 
