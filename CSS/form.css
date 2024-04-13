@@ -5,6 +5,7 @@ body{
     font-style: normal;
     background-image: url(../img/jake-blucker-tMzCrBkM99Y-unsplash.jpg);
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 .card{
     height: 100%;
@@ -39,7 +40,12 @@ body{
 .reset-pass{
     text-decoration: none;
     color: white;
-    margin-left: 55px;
+    margin-left: 75px;
+}
+.forgot-pass{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
 }
 .log-page{
     text-decoration: none;
