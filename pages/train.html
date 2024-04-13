@@ -11,8 +11,45 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
-<body class="bg-train">
-    <h2 class="border-head text-center bg-warning p-1 border border-warning-subtle fs-2">Book Your Tickets Now</h2><br>
+<body >
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <img src="./../icons/main-logo.jpg" class="main-logo">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex; justify-content: space-between;">
+          <li class="nav-item">
+            <a  href="./../index.html" target="_blank" class="nav-link active nav-option fw-semibold h7" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item ">
+            <a href="./about_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="./tour_and_packages.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">TOUR & PACKAGES</a>
+          </li>
+          <li class="nav-item">
+            <a href="./special_offers.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">SPECIAL OFFERS</a>
+          </li>
+        <li class="nav-item">
+          <a href="./booking_and_reservation.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" >BOOKING & RESERVATION</a>
+        </li>
+        <li class="nav-item">
+            <a href="./blog_and_travel_tips.html" target="_blank" class="nav-link disabled nav-option fw-semibold h7" aria-disabled="true" >BLOG & TRAVEL TIPS</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      
+      </div>
+       <a href="./sign_up.html" target="_blank" style="text-decoration: none;"><i class="fa-solid fa-user-plus fs-3" style="cursor:pointer; text-decoration: none" ></i></a>
+    </div>
+  </nav>
+
+    <h2 class="border-head text-center text-warning  p-1 border border-warning-subtle fs-2">Book Your Tickets Now</h2><br>
     <h3 class="border-head flights text-center mx-3 p-1 fs-3">Book your Train Tickets<img src="./../icons/train.png" style="width: 25px; height: 25px;"></h3>
     <div class="Tickets text-center mx-4 py-3 pb-3">
         <div class="nav d-flex  justify-content-center bg-warning-subtle">
@@ -24,7 +61,7 @@
     <div class="container-train">
         
         
-        <form>
+        <form class="bg-train">
             <div>
              <label  for="from"  class="froms mx-2 py-2 fs-5 ">From:</label>
             <input type="text" id="from" name="from" required><br>
