@@ -57,7 +57,7 @@ body {
 
 
 .map-main-img {
-  padding-bottom: 15px;
+  padding-bottom: 60px;
 }
 .img-map {
   display: block;
@@ -131,9 +131,7 @@ body {
 .info-item {
   margin-bottom: 15px;
 }
-.nom{
-  margin-bottom: 40px;
-}
+
 .hhh{
     text-align: center;
     color: #ffc107;
@@ -231,24 +229,52 @@ body {
   }
 }
  
-@media (max-width: 768px) {
-  .footer-container2,
+/* Adjustments for small screens */
+@media only screen and (max-width: 768px) {
   .footer-container {
-     width: 100%;
-   }
- }
- @media (max-width: 768px) {
-  .footer-container2 > div,
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .footer-container > div {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-   }
- 
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
   .footer-head {
-     margin-bottom: 10px;
-   }
- }
+    margin-top: 20px;
+  }
+
+  .footer-icon-container {
+    margin-bottom: 10px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+
+/* Adjustments for medium screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer-container > div {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+}
+
+/* Adjustments for large screens */
+@media only screen and (min-width: 1025px) {
+  .footer-container > div {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+}
+
  .navbar{
     width:100%;
     padding:20px;
@@ -310,3 +336,4 @@ body {
             margin-top: 10px;
           }
         }
+        
