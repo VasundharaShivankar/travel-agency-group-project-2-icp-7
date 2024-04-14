@@ -62,3 +62,16 @@ else if (num==4){
 }
 }
 
+
+function isValidEmail() {
+  var email = document.getElementById("emailInput").value;
+  if (email=="") {
+    alert("Please enter your email.");
+    return false;
+  }
+  if (!isValidEmailAddress(email)) {
+    alert("Please enter a valid email address.");
+    return false;
+  }
+  return true;
+}

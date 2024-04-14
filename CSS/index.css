@@ -21,7 +21,11 @@
     width: 70px;
   }
   
-  
+  .main-logo{
+    margin-right:100px;
+    height:70px;
+    width: 70px;
+  }
 
 .heading {
     text-align: center;
@@ -111,11 +115,13 @@
 .container-footer{
     align-items: center;
   }
-
+.news-btn{
+  width: 130px;
+}
   .newsletter {
     position: relative;
     align-items: center;
-    width:600px;
+    width:40%;
     margin:20px auto;
 background-color: #d0e5e9;
 padding: 20px;
@@ -203,7 +209,7 @@ margin-bottom: 5px;
 text-decoration:none;
 }
 .footer-quick-links:hover{
-color: #4c29cc;
+color:  rgb(255, 187, 0);
 margin-bottom: 5px;
 }
 .footer-icon-container{
@@ -217,8 +223,14 @@ width: 30px;
 height: auto;
 }
 
-@media screen and (max-width:1000px){
-    .gallery-wrap{
-        flex-wrap: wrap;
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .heading{
+        font-size: 40px;
+      }
     }
+    .caption-main{
+      width: 100%;   
+    }
+@media screen {
+    
 }

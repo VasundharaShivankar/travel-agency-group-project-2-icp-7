@@ -1,6 +1,6 @@
-# Travel agency
+# GlobeTrek Travel Agency
 
-welcome to our **Travel agency website** This platform helps you to make an easier task of searching places and for booking train, flight or bus.
+Welcome to our **Travel agency website** . This platform helps you to make an easier task of searching places and for booking train, flight or bus.
 
 
 ## Home page 
@@ -19,15 +19,15 @@ The Tours and Travel Management System is a web based application. The main purp
 
 ## Features
 
-**Tour and packages :-** saving you valuable time and ensuring a hassle-free experience. And Suggest beautiful places around the world
+**Tour and packages :-** Saving you valuable time and ensuring a hassle-free experience and Suggest beautiful places around the world.
 
-**Special offers :-** We provides you best packages For tourism around the world
+**Special offers :-** GlobeTrek provides you best packages For tourism around the world.
 
-**Booking & Reservation :-** User can able to book Trains , Flights and buses for travelling purpose
+**Booking & Reservation :-** User is able to book Trains , Flights and buses for travelling purpose.
 
 ## Technologies Used
 
-  **The Travel agency is built using the following technologies :**
+  **GlobeTrek is built using the following technologies :**
 
 - ```HTML```
 - ```CSS```
