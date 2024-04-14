@@ -130,18 +130,15 @@ image.addEventListener('mouseleave', function() {
 });
 
 
-function isValidEmail() { 
-    if (emailPattern.test(emailInput)) {
-        var emailInput = document.getElementById("emailInput").value.trim();
-        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        errorMessage.textContent = "";
-        return true;
-    } else {
-        var errorMessage = document.getElementById("errorMessage");
-        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        errorMessage.textContent = "Please enter a valid email address in the format 'example@example.com'";
-        alert("Invalid email format. Please correct it.");
-        return false;
-    }
+function isValidEmail() {
+  var email = document.getElementById("emailInput").value;
+  if (email=="") {
+    alert("Please enter your email.");
+    return false;
+  }
+  if (!isValidEmailAddress(email)) {
+    alert("Please enter a valid email address.");
+    return false;
+  }
+  return true;
 }
-

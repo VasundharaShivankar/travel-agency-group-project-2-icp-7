@@ -71,7 +71,7 @@
     margin-bottom: -25px;
     margin: 0 10px;
 }
-.img-container img{ height: 150px; cursor: pointer; margin-top: 100px; 
+.img-container img{ height: 150px; cursor: pointer; margin-top: 7%; 
  
 }
 
@@ -138,13 +138,15 @@
   font-optical-sizing: auto;
   font-weight:700;
   font-size: 70px;
-  width: 500px;
+  width: 37%;
   text-wrap: wrap;
   font-style: normal;
   text-align: center;
-  padding-left: 20px;
+  margin-left: 17%;
+  padding-top: 5%;
+  /* padding-left: 20px;
   padding-top: 60px;
-  margin-left: 200px;
+  margin-left: 200px; */
 }
 button{
     width: 50%;
@@ -188,11 +190,20 @@ h5 img{
 
     
 }
-.australia .image-effect .img-card{
-  padding: 10px;
+.australia .image-effect .card-img{
+  height: auto;
 object-fit: cover;
 
 }
+.australia .image-effect .card-img:hover{
+    opacity: 0.7;
+    transition:1s ;
+    -webkit-transition:1s ;
+    -moz-transition:1s ;
+    -ms-transition:1s ;
+    -o-transition:1s ;
+}
+
 
 
 
@@ -219,6 +230,11 @@ object-fit: cover;
       font-size: 20px;
      
     }
+    .img-container img{ height: 50px;
+       cursor: pointer; 
+       margin-top: px; 
+ 
+    }
     
     .second{
       visibility: hidden;
@@ -241,6 +257,10 @@ object-fit: cover;
       height: auto;
       
 
+    }
+    .jost-font{
+      font-size: 2em;
+      width: 60%;
     }
     
     .overlay {
