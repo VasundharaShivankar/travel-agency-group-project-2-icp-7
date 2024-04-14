@@ -6,6 +6,11 @@ body{
     background-image: url(../img/jake-blucker-tMzCrBkM99Y-unsplash.jpg);
     background-size: cover;
 }
+.main-logo{
+    margin-right:100px;
+    height:70px;
+    width: 70px;
+  }
 .navbar{
     width:100%;
     padding:20px;

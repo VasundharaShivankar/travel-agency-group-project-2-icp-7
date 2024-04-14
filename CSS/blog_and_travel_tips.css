@@ -4,6 +4,11 @@
   font-weight: weight;
   font-style: normal;
 }
+.main-logo{
+  margin-right:100px;
+  height:70px;
+  width: 70px;
+}
 .navbar{
   width:100%;
   padding:20px;
@@ -19,6 +24,9 @@
   margin-right:100px;
   height:70px;
   width: 70px;
+}
+.sgn {
+  display: none;
 }
         .caption-main{
           font-size: 55px;
