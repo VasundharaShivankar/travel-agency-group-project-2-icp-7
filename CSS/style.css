@@ -110,7 +110,9 @@
 .container-footer{
     align-items: center;
   }
-
+.news-btn{
+  width: 130px;
+}
   .newsletter {
     position: relative;
     align-items: center;
