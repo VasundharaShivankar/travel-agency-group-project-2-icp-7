@@ -1,5 +1,12 @@
-.bg-train{
-    height: 1000px !important;
+.main-booking{
+    background: url('./../img/booking_img/bg-aroplane-img.jpg');
+    opacity: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-train.bg-train{
+    height: 500px !important;
     width: 100% !important;
     background: url('./../img/booking_img/train-bg-img.jpg');
     opacity: 2px;
@@ -17,11 +24,7 @@
 .bg-plane{
     height: 1150px !important;
     width: 100% !important;
-    background: url('./../img/booking_img/bg-aroplane-img.jpg');
-    opacity: 2px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
     position: relative;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
@@ -45,13 +48,23 @@
 
 }
 .container{
-    height: 150%;
-    width: 800px;
+    height: 50%;
+    border:1px solid rgb(156, 147, 147);
+    width: 500px;
     background-color: transparent;
     margin: 50px auto;
     backdrop-filter: blur(10px);
     justify-content: center;
 }
+.container:hover{
+        box-shadow: 0px 4px 8px 0px black;
+        border-radius: 15px;
+    }
+    .element{
+        width: 100%;
+        height: 40px;
+        border:0.5px solid black;
+    }
 .container-train{
     height: 80%;
     width: 600px;
@@ -73,11 +86,8 @@
             
         display: block;
         margin-bottom: 5px;
-       
-    
     }
     .input{
-        width: 50%;
         padding: 10px;
         margin-bottom: 15px;
         border: 1px solid #ccc;
@@ -91,7 +101,7 @@
     input[type="#"],
     input[type="submit"] 
     {
-            width: 30%;
+            width: 70%;
             padding: 25px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
@@ -159,3 +169,131 @@
             height:70px;
             width: 70px;
           }
+
+          
+/* footer css */
+.container-footer{
+    align-items: center;
+  }
+.news-btn{
+  width: 130px;
+}
+  .newsletter {
+    position: relative;
+    align-items: center;
+    width:40%;
+    margin:20px auto;
+background-color: #d0e5e9;
+padding: 20px;
+border-radius:20px;
+}
+.newsletter h3 {
+color: #333;
+margin-bottom: 10px;
+}
+.newsletter p {
+color: #666;
+margin-bottom: 10px;
+
+}
+.newsletter input[type="email"] {
+padding: 10px;
+width: 70%;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.newsletter input[type="submit"] {
+padding: 10px 20px;
+background-color: #49e4ff;
+color: black;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.newsletter input[type="submit"]:hover {
+background-color: #90eeff;
+}
+.email-input {
+width: 300px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin:10px auto;
+margin-bottom: 10px;
+}
+.error-message {
+color: red;
+}
+ 
+.container-footer{
+    align-items: center;
+  }
+
+  .newsletter {
+    position: relative;
+    align-items: center;
+    width:600px;
+    margin:20px auto;
+background-color: #d0e5e9;
+padding: 20px;
+border-radius:20px;
+}
+  .footer {
+background-color: black;
+padding: 40px;
+color: white; 
+}
+.footer-body{
+max-width: 1200px;
+margin: 0 auto;
+}
+.footer-head h5{
+color: white; 
+margin-bottom: 20px;
+}
+.footer-container{
+display: flex; 
+flex-wrap: wrap; 
+align-items: flex-start; 
+justify-content: space-between;
+}
+.footer-head h5{
+width: 25px; 
+height: 25px;
+color: #333; 
+margin-top:5px;
+margin-bottom: 20px; 
+}
+.footer-container2{
+display:block;
+justify-content: space-between;
+}
+.footer-contact-us, .footer-contact {
+color: #666;
+text-decoration: none;
+}
+
+.footer-contact-us:hover {
+color: rgb(255, 187, 0);
+}
+.footer-quick-links{
+color: rgb(125, 124, 124);
+margin-bottom: 5px;
+text-decoration:none;
+}
+.footer-quick-links:hover{
+color:rgb(255, 187, 0);
+margin-bottom: 5px;
+}
+.footer-icon-container{
+margin-bottom: 10px;
+text-decoration: none;
+color: rgb(125, 124, 124);
+}
+.footer-icon{
+margin-right:3px;
+width: 30px;
+height: auto;
+}
+
