@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  background-image: url(./../img/contact_img/contact.jpg);
+  backdrop-filter: blur(10px);
 }
 
 .navbar {
@@ -67,6 +67,7 @@ body {
   margin-top: 5px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  border-color: #ffc107;
 }
 .container {
   max-width: 1200px;
@@ -88,7 +89,7 @@ body {
   box-shadow: 0px 4px 8px 0px  rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
   padding: 20px;
-  backdrop-filter: blur(10px);
+  
   box-sizing: border-box;
 }
 
@@ -162,7 +163,9 @@ body {
   margin-bottom: 5px;
 }
 .breadcrumb-section{
-  height: auto;
+  background-image: url("./../img/contact_img/contact-bg.jpg");
+  height: 400px;
+  width: auto;
   display: flex;
   background-position: center;
   background-repeat: no-repeat;
