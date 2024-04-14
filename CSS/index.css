@@ -28,9 +28,14 @@
     font-weight: bold;
     font-size: 80px;
     font-family: "Roboto Condensed", sans-serif;
+    color:#ffcc00;
 }
 .card-title {
     font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.card{
+    font-family: "Roboto Condensed", sans-serif;
 }
 .blog_image_container {
     height: 550px !important;
@@ -210,4 +215,10 @@ color: rgb(125, 124, 124);
 margin-right:3px;
 width: 30px;
 height: auto;
+}
+
+@media screen and (max-width:1000px){
+    .gallery-wrap{
+        flex-wrap: wrap;
+    }
 }

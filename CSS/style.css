@@ -1,0 +1,361 @@
+/* font url */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font css */
+.roboto-condensed-uniquifier{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+    /* page title font-size=will update soon
+     font-size=h5 (for common text) in bootstrap
+     font-size=h6 (for descriptive text) in bootstrap 
+     font-size=h2/h3  (for heading text) in bootstrap */
+  
+
+
+  /* common color theme
+  button= btn btn-warning;
+  newsletter color= #d0e5e9; (can apply to the cards)
+ */
+
+
+
+  /* footer code
+
+<!-- Footer -->
+<div class="container-footer mb-2">
+  <div class="newsletter p-2 justify-content-center ">
+    <h3 class="text-center roboto-condensed-uniquifier mt-2">Join the Newsletter</h3>
+    <p class="text-center roboto-condensed-uniquifier" style="color:#302f2f">To receive our best monthly deals</p>
+    <form id="emailForm" onsubmit="return isValidEmail()" class="d-flex">
+        <input type="email" id="emailInput" class="form-control mr-2 mx-4 mb-3" placeholder="Enter your email">
+        <button type="submit" class="btn btn-warning ms-3 mb-3 me-4" style="height:45px;">Submit</button>
+    </form>
+</div>
+<footer class="footer" >
+  <div class="footer-body">
+    <div class="footer-container">
+      <div class="footer-container2">
+        <div style="display:flex">
+        <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 class="footer-head h4 roboto-condensed-uniquifier"> Address</h3>
+        </div><br/>
+        <p  class="h5 footer-contact roboto-condensed-uniquifier">101, Serenity Road, Seminary Hills</p>
+        <p class="h5 footer-contact roboto-condensed-uniquifier">Nagpur, Maharashtra 440006</p>
+        <p class="h5 footer-contact roboto-condensed-uniquifier">India</p>
+        <div style="display:flex;">
+          <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px"><h3   class="footer-head h4 roboto-condensed-uniquifier"> More Enquiry</h3>
+          </div>
+        <a href="tel:9970059488" class="h5 footer-contact-us roboto-condensed-uniquifier">Phone: 0124 462 8747</a><br/>
+
+        <div style="display:flex; margin-top:6px">
+          <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3  class="footer-head h4 roboto-condensed-uniquifier"> Send Mail</h3>
+          </div>
+        <a href="mail to:vasundharashivankar179@gmail.com" class="h5 footer-contact-us roboto-condensed-uniquifier">Email: customer.service@globetrek.com</a>
+      </div>
+
+      <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Quick Links</h3>
+        <div style="display: block; align-items: center;">
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">About Us</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Destinations</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Tour Packages</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Article</a></div>
+        </div>
+      </div>
+
+      <div>
+      <h3 class="footer-head h4 roboto-condensed-uniquifier">Company</h3>
+      <div style="display: block; align-items: center;">
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Careers</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Jobs</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Partnerships</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Affiliates</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Terms and conditions</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Privacy Policy</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Cookie Statement</a></div>
+      </div>
+      </div>
+    
+      <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Follow Us</h3>
+        <div style="display: flex; flex-direction: column;">
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png" alt="Facebook"  class="h5 footer-icon roboto-condensed-uniquifier">Facebook</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png" alt="Twitter"  class="h5 footer-icon roboto-condensed-uniquifier">Twitter</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png" alt="Instagram" class="h5 footer-icon roboto-condensed-uniquifier">Instagram</a></div>
+        </div>
+      <br/>
+        <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Payment Partner</h3>
+        <div style="display: flex; justify-content: space-between;">
+          <div class="footer-icon-container"><img src="./../icons/visa.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/stripe.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/paypal.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/skrill.png"  class="footer-icon"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <hr style="border-top: 1px solid #ddd; margin: 40px 0;">
+    <p style="color: #666; text-align: center;" class="roboto-condensed-uniquifier">&copy; 2024 GlobeTrek. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+<!-- Footer End -->
+*/
+
+
+/* footer css */
+.container-footer{
+    align-items: center;
+  }
+.news-btn{
+  width: 130px;
+}
+  .newsletter {
+    position: relative;
+    align-items: center;
+    width:40%;
+    margin:20px auto;
+background-color: #d0e5e9;
+padding: 20px;
+border-radius:20px;
+}
+.newsletter h3 {
+color: #333;
+margin-bottom: 10px;
+}
+.newsletter p {
+color: #666;
+margin-bottom: 10px;
+
+}
+.newsletter input[type="email"] {
+padding: 10px;
+width: 70%;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.newsletter input[type="submit"] {
+padding: 10px 20px;
+background-color: #49e4ff;
+color: black;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.newsletter input[type="submit"]:hover {
+background-color: #90eeff;
+}
+.email-input {
+width: 300px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin:10px auto;
+margin-bottom: 10px;
+}
+.error-message {
+color: red;
+}
+  .footer {
+background-color: black;
+padding: 40px;
+color: white; 
+}
+.footer-body{
+max-width: 1200px;
+margin: 0 auto;
+}
+.footer-head h5{
+color: white; 
+margin-bottom: 20px;
+}
+.footer-container{
+display: flex; 
+flex-wrap: wrap; 
+align-items: flex-start; 
+justify-content: space-between;
+}
+.footer-head h5{
+width: 25px; 
+height: 25px;
+color: #333; 
+margin-top:5px;
+margin-bottom: 20px; 
+}
+.footer-container2{
+display:block;
+justify-content: space-between;
+}
+.footer-contact-us, .footer-contact {
+color: #666;
+text-decoration: none;
+}
+
+.footer-contact-us:hover {
+color: rgb(255, 187, 0);
+}
+.footer-quick-links{
+color: rgb(125, 124, 124);
+margin-bottom: 5px;
+text-decoration:none;
+}
+.footer-quick-links:hover{
+color: #4c29cc;
+margin-bottom: 5px;
+}
+.footer-icon-container{
+margin-bottom: 10px;
+text-decoration: none;
+color: rgb(125, 124, 124);
+}
+.footer-icon{
+margin-right:3px;
+width: 30px;
+height: auto;
+}
+
+/*footer css end */
+
+
+/*
+navbar html:
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <img src="./../icons/main-logo.jpg" class="main-logo">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex; justify-content: space-between;">
+            <li class="nav-item">
+              <a  href="./../index.html" target="_blank" class="nav-link active nav-option fw-semibold h7" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item ">
+              <a href="./about_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a href="./tour_and_packages.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">TOUR & PACKAGES</a>
+            </li>
+            <li class="nav-item">
+              <a href="./special_offers.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">SPECIAL OFFERS</a>
+            </li>
+          <li class="nav-item">
+            <a href="./booking_and_reservation.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" >BOOKING & RESERVATION</a>
+          </li>
+          <li class="nav-item">
+              <a href="./blog_and_travel_tips.html" target="_blank" class="nav-link disabled nav-option fw-semibold h7" aria-disabled="true" >BLOG & TRAVEL TIPS</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">CONTACT US</a>
+            </li>
+          </ul>
+        
+        </div>
+         <a href="./sign_up.html" target="_blank" style="text-decoration: none;"><i class="fa-solid fa-user-plus fs-3" style="cursor:pointer; text-decoration: none" ></i></a>
+      </div>
+    </nav>
+
+    */
+
+    /*
+    navbar css:
+    .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+
+.navbar-toggler {
+  color: #000000; 
+}
+
+
+.navbar-collapse {
+  display: none; 
+}
+
+
+@media (max-width: 768px) {
+  
+  .navbar-collapse {
+    display: block;
+  }
+
+  
+  .main-logo {
+    display: none;
+  }
+
+  
+  .navbar-nav {
+    text-align: center;
+  }
+
+ 
+  .nav-item {
+    margin-bottom: 10px; 
+  }
+}
+
+    .navbar{
+  width:100%;
+  padding:20px;
+  }
+  .nav-option{
+      padding: 5px;
+      font-family: ;
+  }
+  .nav-item{
+    margin:0 3px;
+  }
+.main-logo{
+  margin-right:100px;
+  height:70px;
+  width: 70px;
+}
+
+*/
+
+/*  ONLY FOR SANJANA-destinations page */
+
+/*  <div class="blog_image_container">
+            <div class="container">
+                <div class="row justify-content-center align-items-start">
+                    <div class="col-md-6 left text-start mt-5">
+                      <h1 class="caption-main"> Discover your perfect escape with us </h1>        
+                    </div>
+                </div>
+            </div>
+        </div>
+ */
+
+ /* destinations page css */
+ /* .blog_image_container {
+    height: 600px !important;
+    width: 100% !important;
+    background: url('./../img/blog_img/main.png');
+    opacity: 95px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+        .caption-main{
+          font-size: 55px;
+          color:white;
+          width:950px;
+          font-family:;
+          margin-top:60px;
+          margin-bottom:0px; 
+          padding:0px;
+        }
+
+        */

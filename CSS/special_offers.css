@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    
+    text-align: center;
+    background-color: rgb(253, 253, 251);
+}
+
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  .card:hover {
+    height: 400px;
+    opacity: 0.7;
+ }
+ 
+ .card:hover .info {
+    height: 100%;
+ }
+ 
+ .card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height:40px;
+ }
+ 
+ .card:hover .icon {
+    background-position: -120px;
+    transition: all 0.3s ease;
+ }
+ 
+ .card:hover .icon i {
+    background: linear-gradient(90deg, #FF7E7E, #FF4848);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    opacity: 1;
+    transition: all 0.3s ease;
+ }
