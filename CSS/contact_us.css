@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  backdrop-filter: blur(10px);
+  
 }
 
 .navbar {
@@ -13,7 +13,7 @@ body {
   z-index: 1000;
   width: 100%;
   background-color: #ffffff;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3); 
 }
 
 .main-logo{
@@ -61,7 +61,7 @@ body {
 
 
 .map-main-img {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 .img-map {
   display: block;
@@ -84,11 +84,13 @@ body {
 
 .column-2 {
   display: block;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(20px);
   width: 100%;
   margin-bottom: 15px;
+  margin-top: -15px;
   border-radius: 10px;
-  box-shadow: 0px 4px 8px 0px  rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 8px 0px  rgba(0, 0, 0, 0.5);
+  border-color:  black;
   transition: transform 0.3s ease;
   padding: 20px;
   box-sizing: border-box;
@@ -97,6 +99,7 @@ body {
 .column-2:hover {
   transform: scale(1.02);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25 );
+  transition: 0.3s;
 }
 
 /* Header Styles */
@@ -132,12 +135,19 @@ body {
 .info-item {
   margin-bottom: 15px;
 }
+.nom{
+  margin-bottom: 40px;
+}
 .hhh{
     text-align: center;
     color: #ffc107;
     font-weight:bolder;    
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    font-size: 30px;
+    font-size: 40px;
+  }
+  .hn{
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   }
 .info-item i {
   margin-right: 5px;
@@ -147,7 +157,7 @@ body {
 
 .info-item p {
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid  #997300;
   border-radius: 8px;
   font-size: 18px;
   margin: 0;
