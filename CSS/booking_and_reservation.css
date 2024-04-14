@@ -48,9 +48,10 @@
 
 }
 .container{
-    height: 50%;
+    height: 30%;
     border:1px solid rgb(156, 147, 147);
     width: 500px;
+    border-radius: 8px;
     background-color: transparent;
     margin: 50px auto;
     backdrop-filter: blur(10px);
@@ -60,11 +61,29 @@
         box-shadow: 0px 4px 8px 0px black;
         border-radius: 15px;
     }
-    .element{
-        width: 100%;
-        height: 40px;
-        border:0.5px solid black;
+.submit-btn{
+    border-radius: 50px; 
+    width: 325px;
+}
+    @media screen and (max-width: 600px){
+    .container{
+        height: 30%;
+        border:1px solid rgb(156, 147, 147);
+        width: 300px;
     }
+    .submit-btn{
+        border-radius: 50px; 
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:800px){
+    .submit-btn{
+        border-radius: 50px; 
+        width:80%;
+    }
+}
+
 .container-train{
     height: 80%;
     width: 600px;
@@ -88,8 +107,6 @@
         margin-bottom: 5px;
     }
     .input{
-        padding: 10px;
-        margin-bottom: 15px;
         border: 1px solid #ccc;
         border-radius: 10px;
         background-color: white;
@@ -113,8 +130,8 @@
         background-color: #ffc107;
     }
     .travelers-inc-dec{
-            margin-left: 35%;
-            width: 30%;
+           margin-left: 15%;
+            width: 70%;
             padding: 25px;
             margin-bottom: 15px;
             border: 1px solid #ccc;

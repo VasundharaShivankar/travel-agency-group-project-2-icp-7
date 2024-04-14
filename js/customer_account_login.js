@@ -40,3 +40,18 @@ function isValidEmail() {
      }
 
 }
+
+function validateForm() {
+  let password = document.getElementById("password").value;
+
+   // Check if password is exactly 8 digits
+   let passwordPattern = /^\d{8}$/;
+   if (!passwordPattern.test(password)) {
+       alert("Password must be 8 digits long.");
+       return false;
+   } else {
+       passwordError.textContent = "";
+       return true;
+   }
+
+}

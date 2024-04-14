@@ -72,12 +72,12 @@
             <input type="date" id="departure" name="departure" class="text p-3 rounded-3 m-1 element" required><br>
         <div>
             <label for="return"   class="mx-2 py-2 fs-5">Return Date:</label>
-            <input class="input" type="date" id="return" class="text p-3 rounded-3 m-1 element" name="return"><br>
+            <input type="date" id="return" name="return" class="text p-3 rounded-3 m-1 element" required><br>
         </div>
             <div>
             
-            <label for="travelers"  class="mx-2 py-2 fs-5">Number of Travelers:</label>
-            <div class="travelers-inc-dec">
+            <label for="travelers"  class="mx-2 py-2 fs-5 ">Number of Travelers:</label>
+            <div class="travelers-inc-dec ">
            <span><img src="./../icons/minus.png" class="btn-quantity" onclick="dec()"></span>
            <span class="already" id="quantity-text">1</span>
            <span><img src="./../icons/add.png "class="btn-quantity" onclick="inc()"></span>
@@ -93,7 +93,9 @@
              </div>
         </div>
             <div>
-            <input type="submit" class="mx-5 py-1 fs-5   border-success" value="Submit">
+                <button class="btn btn-warning text-light button p-2 my-4 submit-btn" >Submit
+          
+          </button>
         </div>
         </form>
     
@@ -180,7 +182,9 @@
 </footer>
 </div>
 <!-- Footer End -->
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="./../js/booking_and_reservation.js">
     
