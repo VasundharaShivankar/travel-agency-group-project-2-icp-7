@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+  <!-- nav bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <img src="./../icons/main-logo.jpg" class="main-logo">
     <div class="container-fluid">
@@ -28,29 +29,30 @@
             <a href="./about_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a href="./tour_and_packages.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">TOUR & PACKAGES</a>
+            <a href="./tour_and_packages.html" target="_blank" class="nav-link disabled nav-option fw-semibold h7" href="#">TOUR & PACKAGES</a>
           </li>
           <li class="nav-item">
             <a href="./special_offers.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">SPECIAL OFFERS</a>
           </li>
         <li class="nav-item">
-          <a href="./booking_and_reservation.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" >BOOKING & RESERVATION</a>
+          <a href="./booking_and_reservation.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#" aria-disabled="true">BOOKING & RESERVATION</a>
         </li>
         <li class="nav-item">
-            <a href="./blog_and_travel_tips.html" target="_blank" class="nav-link disabled nav-option fw-semibold h7" aria-disabled="true" >BLOG & TRAVEL TIPS</a>
+            <a href="./blog_and_travel_tips.html" target="_blank" class="nav-link active nav-option fw-semibold h7">BLOG & TRAVEL TIPS</a>
           </li>
           <li class="nav-item">
-            <a href="./contact_us.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">CONTACT US</a>
+            <a href="./special_offers.html" target="_blank" class="nav-link active nav-option fw-semibold h7" href="#">CONTACT US</a>
           </li>
         </ul>
       
       </div>
-       <a href="./sign_up.html" target="_blank" style="text-decoration: none;"><i class="fa-solid fa-user-plus fs-3" style="cursor:pointer; text-decoration: none" ></i></a>
+      <a href="./sign_up.html" target="_blank" style="text-decoration: none;"><i class="fa-solid fa-user-plus fs-3 sgn text-dark"
+        style="cursor:pointer; text-decoration: none;"></i></a>
     </div>
   </nav>
-    
-    <h2 class="border-head text-center text-warning p-1 border border-warning-subtle fs-2">Book Your Tickets Now</h2><br>
-    <h3 class="border-head flights text-center mx-3 p-1 fs-3">Book your Flights<img src="./../icons/plane.png" style="width: 25px; height: 25px;"></h3>
+    <div class="main-booking">
+    <h2 class="border-head text-center text-warning p-1 h1 border border-warning-subtle fs-2 mt-4">Book Your Tickets Now</h2><br>
+    <h3 class="border-head flights text-center mx-2 p-1 fs-3">Book your Flights<img src="./../icons/plane.png" style="width: 25px; height: 25px;"></h3>
     <div class="Tickets text-center mx-4 py-3 pb-3">
         <div class="nav d-flex  justify-content-center bg-warning-subtle">
            
@@ -58,28 +60,26 @@
             <a href="hotels.html" class="menu text-decoration-none">Hotels<img src="./../icons/5-stars.png" style="width: 25px; height: 25px;"></a>
     </div>
     <div class="container">
-        
-        
         <form class="bg-plane">
             <div>
-             <label  for="from"  class="froms mx-2 py-2 fs-5 ">From:</label>
-            <input type="text" id="from" name="from" required><br>
+             <label  for="from"  class="froms mx-2 py-2 fs-5 text p-3 rounded-3 m-1">From:</label>
+            <input type="text" id="from" name="from" class="text p-3 rounded-3 m-1 element" required><br>
         </div>
 
             <div>
             <label for="to"  class="mx-2 py-2 fs-5">To:</label>
-            <input type="text" id="to" name="to" required><br>
+            <input type="text" id="to" class="text p-3 rounded-3 m-1 element" name="to" required><br>
         </div>
             <label for="departure"   class="mx-2 py-2 fs-5">Departure Date:</label>
-            <input type="date" id="departure" name="departure" required><br>
+            <input type="date" id="departure" name="departure" class="text p-3 rounded-3 m-1 element" required><br>
         <div>
             <label for="return"   class="mx-2 py-2 fs-5">Return Date:</label>
-            <input class="input" type="date" id="return" name="return"><br>
+            <input type="date" id="return" name="return" class="text p-3 rounded-3 m-1 element" required><br>
         </div>
             <div>
             
-            <label for="travelers"  class="mx-2 py-2 fs-5">Number of Travelers:</label>
-            <div class="travelers-inc-dec">
+            <label for="travelers"  class="mx-2 py-2 fs-5 ">Number of Travelers:</label>
+            <div class="travelers-inc-dec ">
            <span><img src="./../icons/minus.png" class="btn-quantity" onclick="dec()"></span>
            <span class="already" id="quantity-text">1</span>
            <span><img src="./../icons/add.png "class="btn-quantity" onclick="inc()"></span>
@@ -95,96 +95,98 @@
              </div>
         </div>
             <div>
-            <input type="submit" class="mx-5 py-1 fs-5   border-success" value="Submit">
+                <button class="btn btn-warning text-light button p-2 my-4 submit-btn" >Submit
+          
+          </button>
         </div>
         </form>
     
-        
+        </div>
     </div>
-    <div class="container-footer">
-        <div class="newsletter p-2 justify-content-center">
-          <h3 style="text-align: center;margin-top:10px" class="roboto-condensed-uniquifier">Join the Newsletter</h3>
-          <p style="text-align: center;" class="roboto-condensed-uniquifier">To receive our best monthly deals</p>
-          <form id="emailForm" onsubmit="return isValidEmail()" style="display: flex;">
-              <label for="email" ></label>
-              <input type="email" id="emailInput" class="email-input" placeholder="vasundhara@gmail.com" >
-              <p class="error-message" id="errorMessage"></p>
-              <button type="submit" value="Submit" class="btn btn-warning roboto-condensed-uniquifier" style="height:45px; margin-top:10px;margin-left:-20px;margin-right:20px;">Submit</button>
-          </form>
+
+<!-- Footer -->
+<div class="container-footer mb-2">
+  <div class="newsletter p-2 justify-content-center ">
+    <h3 class="text-center roboto-condensed-uniquifier mt-2">Join the Newsletter</h3>
+    <p class="text-center roboto-condensed-uniquifier" style="color:#302f2f">To receive our best monthly deals</p>
+    <form id="emailForm" onsubmit="return isValidEmail()" class="d-flex">
+        <input type="email" id="emailInput" class="form-control mr-2 mx-4 mb-3" placeholder="Enter your email">
+        <button type="submit" class="btn btn-warning ms-3 mb-3 me-4 new-btn" style="height:45px;">Submit</button>
+    </form>
+</div>
+<footer class="footer" >
+  <div class="footer-body">
+    <div class="footer-container">
+      <div class="footer-container2">
+        <div style="display:flex">
+        <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 class="footer-head h4 roboto-condensed-uniquifier"> Address</h3>
+        </div><br/>
+        <p  class="h5 footer-contact roboto-condensed-uniquifier">101, Serenity Road, Seminary Hills</p>
+        <p class="h5 footer-contact roboto-condensed-uniquifier">Nagpur, Maharashtra 440006</p>
+        <p class="h5 footer-contact roboto-condensed-uniquifier">India</p>
+        <div style="display:flex;">
+          <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px"><h3   class="footer-head h4 roboto-condensed-uniquifier"> More Enquiry</h3>
+          </div>
+        <a href="tel:9970059488" class="h5 footer-contact-us roboto-condensed-uniquifier">Phone: 0124 462 8747</a><br/>
+
+        <div style="display:flex; margin-top:6px">
+          <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3  class="footer-head h4 roboto-condensed-uniquifier"> Send Mail</h3>
+          </div>
+        <a href="mail to:vasundharashivankar179@gmail.com" class="h5 footer-contact-us roboto-condensed-uniquifier">Email: customer.service@globetrek.com</a>
       </div>
 
+      <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Quick Links</h3>
+        <div style="display: block; align-items: center;">
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">About Us</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Destinations</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Tour Packages</a></div>
+          <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Article</a></div>
+        </div>
+      </div>
 
-      <footer class="footer" >
-        <div class="footer-body">
-          <div class="footer-container">
-            <div class="footer-container2">
-              <div style="display:flex">
-              <img src="./../icons/location.png" style="width: 35px; height: auto;"><h3 class="footer-head h4 roboto-condensed-uniquifier"> Address</h3>
-              </div><br/>
-              <p  class="h5 footer-contact roboto-condensed-uniquifier">101, Serenity Road, Seminary Hills</p>
-              <p class="h5 footer-contact roboto-condensed-uniquifier">Nagpur, Maharashtra 440006</p>
-              <p class="h5 footer-contact roboto-condensed-uniquifier">India</p>
-              <div style="display:flex;">
-                <img src="./../icons/telephone.png" style="width: 25px; height: 25px; margin-top:5px"><h3   class="footer-head h4 roboto-condensed-uniquifier"> More Enquiry</h3>
-                </div>
-              <a href="tel:9970059488" class="h5 footer-contact-us roboto-condensed-uniquifier">Phone: 0124 462 8747</a><br/>
-      
-              <div style="display:flex; margin-top:6px">
-                <img src="./../icons/send.png" style="width: 25px; height: 25px;"><h3  class="footer-head h4 roboto-condensed-uniquifier"> Send Mail</h3>
-                </div>
-              <a href="mail to:vasundharashivankar179@gmail.com" class="h5 footer-contact-us roboto-condensed-uniquifier">Email: customer.service@globetrek.com</a>
-            </div>
-      
-            <div>
-              <h3 class="footer-head h4 roboto-condensed-uniquifier">Quick Links</h3>
-              <div style="display: block; align-items: center;">
-                <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">About Us</a></div>
-                <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Destinations</a></div>
-                <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Tour Packages</a></div>
-                <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Article</a></div>
-              </div>
-            </div>
-      
-            <div>
-            <h3 class="footer-head h5 roboto-condensed-uniquifier">Company</h3>
-            <div style="display: block; align-items: center;">
-              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Careers</a></div>
-              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Jobs</a></div>
-              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Partnerships</a></div>
-              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Affiliates</a></div>
-              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Terms and conditions</a></div>
-              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Privacy Policy</a></div>
-              <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Cookie Statement</a></div>
-            </div>
-            </div>
-          
-            <div>
-              <h3 class="footer-head h4 roboto-condensed-uniquifier">Follow Us</h3>
-              <div style="display: flex; flex-direction: column;">
-                <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png" alt="Facebook"  class="h5 footer-icon roboto-condensed-uniquifier">Facebook</a></div>
-                <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png" alt="Twitter"  class="h5 footer-icon roboto-condensed-uniquifier">Twitter</a></div>
-                <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png" alt="Instagram" class="h5 footer-icon roboto-condensed-uniquifier">Instagram</a></div>
-              </div>
-            <br/>
-              <div>
-              <h3 class="footer-head h4 roboto-condensed-uniquifier">Payment Partner</h3>
-              <div style="display: flex; justify-content: space-between;">
-                <div class="footer-icon-container"><img src="./../icons/visa.png"  class="footer-icon"></div>
-                <div class="footer-icon-container"><img src="./../icons/stripe.png"  class="footer-icon"></div>
-                <div class="footer-icon-container"><img src="./../icons/paypal.png"  class="footer-icon"></div>
-                <div class="footer-icon-container"><img src="./../icons/skrill.png"  class="footer-icon"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-          <hr style="border-top: 1px solid #ddd; margin: 40px 0;">
-          <p style="color: #666; text-align: center;" class="roboto-condensed-uniquifier">&copy; 2024 GlobeTrek. All rights reserved.</p>
-        </div>
-      </footer>
+      <div>
+      <h3 class="footer-head h4 roboto-condensed-uniquifier">Company</h3>
+      <div style="display: block; align-items: center;">
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Careers</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Jobs</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Partnerships</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Affiliates</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Terms and conditions</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Privacy Policy</a></div>
+        <div><a href="#" class="h5 footer-quick-links roboto-condensed-uniquifier">Cookie Statement</a></div>
+      </div>
       </div>
     
+      <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Follow Us</h3>
+        <div style="display: flex; flex-direction: column;">
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/facebook.png" alt="Facebook"  class="h5 footer-icon roboto-condensed-uniquifier">Facebook</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/twitter.png" alt="Twitter"  class="h5 footer-icon roboto-condensed-uniquifier">Twitter</a></div>
+          <div class="footer-icon-container"><a href="#" style="text-decoration: none; color: rgb(125, 124, 124);"><img src="./../icons/instagram.png" alt="Instagram" class="h5 footer-icon roboto-condensed-uniquifier">Instagram</a></div>
+        </div>
+      <br/>
+        <div>
+        <h3 class="footer-head h4 roboto-condensed-uniquifier">Payment Partner</h3>
+        <div style="display: flex; justify-content: space-between;">
+          <div class="footer-icon-container"><img src="./../icons/visa.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/stripe.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/paypal.png"  class="footer-icon"></div>
+          <div class="footer-icon-container"><img src="./../icons/skrill.png"  class="footer-icon"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+    <hr style="border-top: 1px solid #ddd; margin: 40px 0;">
+    <p style="color: #666; text-align: center;" class="roboto-condensed-uniquifier">&copy; 2024 GlobeTrek. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+<!-- Footer End -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="./../js/booking_and_reservation.js">
     

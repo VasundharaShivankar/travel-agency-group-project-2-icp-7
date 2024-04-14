@@ -8,7 +8,11 @@
     text-align: center;
     background-color: rgb(253, 253, 251);
 }
-
+.main-logo{
+   margin-right:100px;
+   height:70px;
+   width: 70px;
+ }
 
 .card {
     width: 300px;
