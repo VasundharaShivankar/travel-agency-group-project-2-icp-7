@@ -3,7 +3,7 @@
     margin: 0;
 }
 /*nav bar*/
-.roboto-condensed-uniquifier{
+/* .roboto-condensed-uniquifier{
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -11,7 +11,7 @@
 }
 .navbar{
   width:100%;
-  padding:20px;
+  padding:;
   font-size: 14px;
   }
   .nav-option{
@@ -20,13 +20,13 @@
   }
   .nav-item{
     margin:0 3px;
-  }
+} 
+  */
 .main-logo{
   margin-right:100px;
   height:70px;
   width: 70px;
 }
-
 /*carousel css*/
 .sliderbg{
   background-image: url(./../img/packages_img/australia/reef1.jpg);
@@ -38,9 +38,7 @@
 }
 
 .applycss{
-  width: 100vh;
-  
-  
+  width: 58%;
   margin:0 auto;
 
 
@@ -185,7 +183,7 @@ h5 img{
 
 .australia .image-effect{
   
-  width: 80%;
+  width: 95%;
   margin: 30px auto;
 
     
@@ -221,9 +219,13 @@ object-fit: cover;
    
   }
   @media screen and (max-width:700px) {
+
+    .applycss{
+      width: 100%;
+      margin:0 auto;
+    }
     .australia .image-effect{
       width: 80%;
-     
       flex-wrap:wrap ;
       display: flex;
       
@@ -298,7 +300,7 @@ object-fit: cover;
       font-weight: 700;
       position: absolute;
       top: 60%;
-      left: 70%;
+      left: 50%;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
