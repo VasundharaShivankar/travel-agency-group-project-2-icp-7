@@ -211,14 +211,6 @@ height: auto;
   border-radius: 10px;
   width: 300px;
 }
-
-.content{
-    position: absolute;
-    height: 500px;
-}
-.head{
-  font-size: 30px;
-    position: relative;
     font-family: "Roboto Condensed", sans-serif;
     width: 600px;
     
