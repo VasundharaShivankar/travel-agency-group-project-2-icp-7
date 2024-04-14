@@ -209,6 +209,9 @@ height: auto;
 .content{
     position: absolute;
 }
+.h1{
+  text-align: center;
+}
 .head{
     position: relative;
     font-family: "Roboto Condensed", sans-serif;
