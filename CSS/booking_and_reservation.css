@@ -20,7 +20,11 @@
     font-style: normal;
     
 }
-
+.main-logo{
+    margin-right:100px;
+    height:70px;
+    width: 70px;
+  }
 .bg-plane{
     height: 1150px !important;
     width: 100% !important;
@@ -67,7 +71,7 @@
 }
     @media screen and (max-width: 600px){
     .container{
-        height: 30%;
+        height: 40%;
         border:1px solid rgb(156, 147, 147);
         width: 300px;
     }
@@ -83,7 +87,6 @@
         width:80%;
     }
 }
-
 .container-train{
     height: 80%;
     width: 600px;

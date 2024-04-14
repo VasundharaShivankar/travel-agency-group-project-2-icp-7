@@ -7,6 +7,11 @@
 .news-btn{
 width: 130px;
 }
+.main-logo{
+  margin-right:100px;
+  height:70px;
+  width: 70px;
+}
 .newsletter {
   position: relative;
   align-items: center;
@@ -118,7 +123,6 @@ height: auto;
   }
   .nav-option{
       padding: 5px;
-      font-family: ;
   }
   .nav-item{
     margin:0 3px;
@@ -197,7 +201,7 @@ height: auto;
   padding: 10px 20px;
 }
 .about-img{
-    height: 400px;
+    height: 300px;
     width: 1375px;
     padding: auto;
 
@@ -210,20 +214,29 @@ height: auto;
 
 .content{
     position: absolute;
-}
-.h1{
-  text-align: center;
+    height: 500px;
 }
 .head{
+  font-size: 30px;
     position: relative;
     font-family: "Roboto Condensed", sans-serif;
     width: 600px;
     
 }
-.traveler-img{
-    height: 400px;
-    padding-left: 50%;
+@media screen and (max-width: 600px){
+  .head{
+    width: 300px;
+    font-size:5px;
 }
+.content{
+  width:300px;
+}
+}
+.traveler-img{
+    height: 300px;
+    padding: 50%;
+}
+
 .btns{
   position: sticky;
   display: flex;
