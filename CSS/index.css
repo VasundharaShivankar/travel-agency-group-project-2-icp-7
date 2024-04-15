@@ -51,12 +51,15 @@
     background-position: center;
     position: relative;
 }
+.blog-text{
+  color:#fce307;
+ 
+}
         .caption-main{
           font-size: 55px;
           color:#ffffff;
           width:950px;
           text-align: center;
-          font-family: "Roboto Condensed", sans-serif;
           font-weight: bold;
           
          
